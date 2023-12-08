@@ -1,0 +1,2215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Grupo San Miguel</title>
+    <link rel="icon" type="icon" href="Images/Favicon.jpg">
+
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://www.google.com/recaptcha/api.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JWC4K8C7RH"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'G-JWC4K8C7RH');
+     </script>
+  </head>
+<body>
+
+  
+  <!-- NAVBAR OCULTO -->
+  <div class="container-fluid p-0 m-0" id="NavbarGSM" style="visibility: hidden; position: relative;">
+
+    <div class="row w-100 m-0 p-0 align-items-center">
+  
+      <div class="col-0 col-lg-3 p-0 m-0 text-center">
+          <img draggable="false" src="Images/logotri.png"  id="Logo" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-12 col-lg-9 p-0 m-0">
+          <div class="container-fluid p-0 m-0">
+
+              <div class="row w-100" id="Row1TopBar">
+                  <div class="col-12 col-sm-12 col-lg-2">
+                      <p class="itemmenu"> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                          <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                        </svg></span> Llamanos al:</p>
+                      <p class="itemmenu2" style="text-align: center;">7700 0176</p>
+                  </div>
+                
+                  <div class="col-12 col-sm-12 col-lg-2">
+                      <p class="itemmenu"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square" viewBox="0 0 16 16">
+                          <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        </svg></span> Mail:</p>
+                      <p class="itemmenu2">info@gruposanmiguel.com.ar</p>
+                  </div>
+                  
+                  <div class="col-12 col-sm-12 col-lg-2 px-5 mt-3 " >
+                    <img  style="transform: skew(-30deg); float: right;" src="Images/BanderaEsp.png" alt="">
+                  </div>
+                  
+                  <!-- <div class="col-12 col-sm-12 col-lg-1 mx-auto sosbutton">
+                      SOS
+                  </div> -->
+                  <div class="col-12 col-sm-12 col-lg-2">
+                    <a href="https://www.gruposanmiguel.com.ar/portal/login.html">
+                      <button class="botonEnviar w-100 h-100" style="transform: skew(-30deg);">Capacitación</button>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2">
+                    <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+                      <button class="botonEnviar w-100 h-100" style="transform: skew(-30deg);">Acceso clientes</button>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2">
+                    <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+                      <button class="botonEnviar w-100 h-100" style="transform: skew(-30deg);">Sistema Satelital</button>
+                    </a>
+                  </div>
+              </div>
+
+              <div class="row w-100 mx-auto my-3 align-items-center">
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="index.html">
+                          <p class="SubItemMenu py-2">Home</p>
+                      </a>                        
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="servicios.html">
+                      <p class="SubItemMenu py-2"  style="font-weight: bold;
+                      transition: 0.1s;
+                      color: #db1223;">Servicios</p> 
+                    </a>                                                                       
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="Nosotros.html">
+                      <p class="SubItemMenu py-2">Quiénes somos</p>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="Clientes.html">
+                      <p class="SubItemMenu py-2">Clientes</p>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="Contacto.html">
+                      <p class="SubItemMenu py-2">Contacto</p>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center" >
+                    <a style="text-decoration: none;" href="Unirse.html">
+                      <button class="SubItemMenu CVBtn py-1 px-3">Enviar CV</button>
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+  </div>
+  
+  <!-- NAVBAR MOVIL OCULTO -->
+  <nav class="navbar navbar-expand-lg navbar-light px-5" style="visibility: hidden; position: relative;">
+    
+      <a class="navbar-brand" href="#" style="color: white;">Grupo San Miguel</a>
+      <img src="Images/BanderaEsp.png" style="float: right; padding-right: 4em; margin-top: 0.4em;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarNavDropdown2" >
+    
+    
+    
+        <ul class="navbar-nav text-start" >
+    
+        
+          <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;" class="my-2">asd</div>
+    
+          <li class="nav-item active ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+    
+          <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+    
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Servicios</a>
+          </li>
+          <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+          <li class="nav-item">
+            <a class="nav-link" href="Nosotros.html">Quiénes Somos</a>
+          </li>
+          <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+          <li class="nav-item">
+            <a class="nav-link" href="Clientes.html">Clientes</a>
+          </li>
+          <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+          <li class="nav-item">
+          <a href="Contacto.html">
+            <a class="nav-link" href="Contacto.html">Contacto</a>
+          </a>
+          </li>
+          
+          <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+    
+          <li class="nav-item">
+            <a style="text-decoration: none;" href="Unirse.html">
+              <button class="SubItemMenu CVBtn my-2 py-1 px-3">Enviar CV</button>
+            </a>
+          </li>
+          <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+    
+        
+         
+          
+    
+          <li class="nav-item pt-1 mt-4">
+            <a href="https://www.gruposanmiguel.com.ar/portal/login.html">
+              <button class="botonEnviar w-75 h-100" style="transform: skew(0deg);">Capacitación</button>
+            </a>
+          </li>
+    
+          <li class="nav-item pt-1">
+            <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+              <button class="botonEnviar w-75 h-100" style="transform: skew(0deg);">Acceso clientes</button>
+            </a>
+          </li>
+    
+    
+          <li class="nav-item pt-1 mb-3">
+            <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+              <button class="botonEnviar w-75 h-100" style="transform: skew(0deg);">Sistema Satelital</button>
+            </a>
+          </li>
+      
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+      
+  
+  </nav>
+
+  <!-- NAVBAR -->
+  <div class="container-fluid  p-0 m-0" id="NavbarGSM">
+
+    <div class="row w-100 m-0 p-0 align-items-center">
+  
+        <div class="col-0 col-lg-3 p-0 m-0 text-center">
+            <img draggable="false" src="Images/logotri.png"  id="Logo" class="img-fluid" alt="">
+        </div>
+  
+        <div class="col-12 col-lg-9 p-0 m-0">
+            <div class="container-fluid p-0 m-0">
+  
+                <div class="row w-100" id="Row1TopBar">
+                  <div class="triangle_corner"></div>
+
+                    <div class="col-12 col-sm-12 col-lg-2">
+                        <p class="itemmenu"> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                            <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                          </svg></span> Llamanos al:</p>
+                          <p class="itemmenu2" style="text-align: center;">                      <a href="tel:77000176" class="itemmenu2" style="text-align: center;">7700 0176</a></p>
+                        </div>
+                  
+                    <div class="col-12 col-sm-12 col-lg-2" id="Infoemail_nav">
+                        <p class="itemmenu"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                          </svg></span> Mail:</p>
+                        <p class="itemmenu2">info@gruposanmiguel.com.ar</p>
+                    </div>
+                           
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <p class="itemmenu"><span></span> Otros países:</p>
+                        <div class="p-0 m-0 w-100 h-100 " >
+                          <a href="https://gruposanmiguel.es/">
+                            <img class="banderita" src="Images/BanderaEsp.png" >
+                          </a>
+                        </div>
+                  </div>
+                    
+
+                    
+                    <!-- <div class="col-12 col-sm-12 col-lg-1 mx-auto sosbutton">
+                        SOS
+                    </div> -->
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <a href="./portal/">
+                        <button class="botonEnviar w-100 h-100" style="">Capacitaciones</button>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+                        <button class="botonEnviar w-100 h-100" style="">Acceso clientes</button>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+                        <button class="botonEnviar w-100 h-100" style="">Sistema Satelital</button>
+                      </a>
+                    </div>
+                </div>
+  
+                <div class="row w-100 mx-auto my-2 align-items-center">
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                        <a href="index.html">
+                            <p class="SubItemMenu py-2" >Home</p>
+                        </a>                        
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="servicios.html">
+                        <p class="SubItemMenu py-2"style="font-weight: bold;
+                        transition: 0.1s;
+                        color: #db1223;">Servicios</p> 
+                      </a>                                                                       
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="Nosotros.html">
+                        <p class="SubItemMenu py-2">Quiénes somos</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="Clientes.html">
+                        <p class="SubItemMenu py-2">Clientes</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="Contacto.html">
+                        <p class="SubItemMenu py-2">Contacto</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center" >
+                      <a style="text-decoration: none;" href="Unirse.html">
+                        <button class="SubItemMenu botonEnviar py-1 px-3">Enviar CV</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+    </div>
+  </div>
+  <!-- NAVBAR MOVIL -->
+  <nav class="navbar navbar-expand-lg navbar-light px-5">
+    <a class="navbar-brand" href="#" style="color: white; display: block;">Grupo San Miguel</a>
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+  
+  
+  
+      <ul class="navbar-nav text-start" >
+  
+      
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;" class="my-2">asd</div>
+  
+        <li class="nav-item active ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+  
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html" style="font-weight: bold;
+          transition: 0.1s;
+          color: #f91a10;">Servicios</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Nosotros.html">Quiénes Somos</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Clientes.html">Clientes</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+        <a href="Contacto.html">
+          <a class="nav-link" href="Contacto.html">Contacto</a>
+        </a>
+        </li>
+        
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+  
+        <li class="nav-item">
+          <a style="text-decoration: none;" href="Unirse.html">
+            <button class="botonEnviar my-2 py-1 px-3" >Enviar CV</button>
+          </a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link"  href="tel:77000176"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+            <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"></path>
+            </svg> 7700 0176</a>
+        </li>
+      
+       
+        
+  
+        <li class="nav-item pt-1 mt-4">
+          <a href="./portal/">
+            <button class="botonEnviar w-50 h-100" style="transform: skew(0deg);">Capacitaciones</button>
+          </a>
+        </li>
+  
+        <li class="nav-item pt-1">
+          <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+            <button class="botonEnviar w-50 h-100" style="transform: skew(0deg);">Acceso clientes</button>
+          </a>
+        </li>
+  
+  
+        <li class="nav-item pt-1 mb-3">
+          <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+            <button class="botonEnviar w-50 h-100" style="transform: skew(0deg);">Sistema Satelital</button>
+          </a>
+        </li>
+    
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+    </nav>
+  <div id="patch"></div>
+
+<DIV>
+  <div class="container mt-5">
+
+    <div class="row">
+
+      <!-- Menu de servicios BOTONERA -->
+      <div class="col-12 col-lg-3 pb-3">
+        <h1 class="selectservice">Seleccione un servicio:</h1>
+        <hr style="color: black;">
+        <div  onclick="SubMenuToogle(0)" >
+          <div class="w-100 ServSubMenuSeguridad"  >
+            <div style="cursor: pointer; color: white; font-weight: bold;"> <i class="fa fa-car-side" style="margin-right: 4%;"></i>CUSTODIA <span class="ArrowServSubMenu" data-aos="fade-right" data-aos-duration="2500" style="color: white;">ᐅ</span></div>           
+            <ul id="0" style="display: none;">            
+              <li onclick="OpenService('AA')">  CUSTODIA MOVIL Y SATELITAL</li>
+              <hr class="m-0">
+              <li onclick="OpenService('BB')">SEGURIDAD PRIVADA</li>
+              <hr class="m-0">
+              <li onclick="OpenService('CC')">TRASLADO DE VALORES</li>
+              <hr class="m-0">
+              <li onclick="OpenService('DD')">REMIS CUSTODIADO</li>
+              <hr class="m-0">
+            </ul>
+          </div>
+        </div>
+
+
+        <div  onclick="SubMenuToogle(1)" >
+          <div class="w-100 ServSubMenuSeguridad" >
+            <div style="cursor: pointer; color: white; font-weight: bold;" ><span style="margin-right: 4%; transform: translate(0px,3px);"class="material-symbols-outlined">
+              zone_person_urgent
+              </span>VIGILANCIA <span class="ArrowServSubMenu" data-aos="fade-right" data-aos-duration="2500" style="color: white;">ᐅ</span></div>           
+            <ul id="1" style="display: none;">            
+              <li onclick="OpenService('00')">VIGILANCIA EMPRESAS</li>
+              <hr class="m-0">
+              <li onclick="OpenService('11')">APP DE REPORTES</li>
+              <hr class="m-0">
+              <li onclick="OpenService('22')">TOTEMS</li>
+              <hr class="m-0">
+              <li onclick="OpenService('HH')">CONTROL DE ACCESO</li>
+              <hr class="m-0">
+            </ul>
+          </div>
+        </div>
+        
+
+        <div  onclick="SubMenuToogle(2)" >
+          <div class="w-100 ServSubMenuSeguridad" >
+            <div style="cursor: pointer; color: white; font-weight: bold;" ><span style="margin-right: 4%; transform: translate(0px,3px);"class="material-symbols-outlined">
+              visibility
+              </span>MONITOREO <span class="ArrowServSubMenu" data-aos="fade-right" data-aos-duration="2500" style="color: white;">ᐅ</span></div>           
+            <ul id="2" style="display: none;">            
+              <li onclick="OpenService('EE')">CAMARAS</li>
+              <hr class="m-0">
+              <li onclick="OpenService('FF')">ALARMAS</li>
+              <hr class="m-0">
+              <li onclick="OpenService('GG')">SEGURIDAD PERIMETRAL</li>
+              <hr class="m-0">
+              <li onclick="OpenService('HH')">CONTROL DE ACCESO</li>
+              <hr class="m-0">
+            </ul>
+          </div>
+        </div>
+
+        <div  onclick="SubMenuToogle(3)" >
+          <div class="w-100 ServSubMenuSeguridad" >
+            <div style="cursor: pointer; color: white; font-weight: bold;" ><span style="margin-right: 4%; transform: translate(0px,3px);"class="material-symbols-outlined">
+              inventory_2
+              </span>INVESTIGACIONES <span class="ArrowServSubMenu" data-aos="fade-right" data-aos-duration="2500" style="color: white;">ᐅ</span></div>           
+            <ul id="3" style="display: none;">            
+              <li onclick="OpenService('II')">INVESTIGACIONES DE ALTA COMPLEJIDAD</li>
+              <hr class="m-0">
+              <li onclick="OpenService('JJ')">GERENCIAMIENTO DE RIESGO</li>
+              <hr class="m-0">
+              <li onclick="OpenService('KK')">INTELIGENCIA PREVENTIVA</li>
+              <hr class="m-0">
+              <li onclick="OpenService('MM')">POLIGRAFO</li>
+              <hr class="m-0">
+            </ul>
+          </div>
+        </div>
+
+        <div  onclick="SubMenuToogle(4)" >
+          <div class="w-100 ServSubMenuSeguridad" >
+            <div style="cursor: pointer; color: white; font-weight: bold;"><span style="margin-right: 4%; transform: translate(0px,3px);"class="material-symbols-outlined">
+              sanitizer
+              </span>LIMPIEZA <span class="ArrowServSubMenu" data-aos="fade-right" data-aos-duration="2500" style="color: white;">ᐅ</span></div>           
+            <ul id="4" style="display: none;">            
+              <li onclick="OpenService('NN')">SANITIZACION DE COMERCIOS</li>
+              <hr class="m-0">
+              <li onclick="OpenService('OO')">DETECTOR DE TEMPERATURA</li>
+              <hr class="m-0">
+              <li onclick="OpenService('PP')">MANTENIMIENTO DE ESPACIOS VERDES</li>
+              <hr class="m-0">
+              <li onclick="OpenService('QQ')">PREVENCION DE PLAGAS</li>
+              <hr class="m-0">
+            </ul>
+          </div>
+        </div>
+
+        <div  onclick="SubMenuToogle(5)" >
+          <div class="w-100 ServSubMenuSeguridad" >
+            <div style="cursor: pointer; color: white; font-weight: bold;"><span style="margin-right: 4%; transform: translate(0px,3px);"class="material-symbols-outlined">
+              code
+              </span>DESARROLLO<span class="ArrowServSubMenu" data-aos="fade-right" data-aos-duration="2500" style="color: white;">ᐅ</span></div>           
+            <ul id="5" style="display: none;">            
+              <li onclick="OpenService('RR')">DESARROLLO WEB</li>
+              <hr class="m-0">
+              <li onclick="OpenService('SS')">DESARROLLO MOVIL</li>
+              <hr class="m-0">
+              <li onclick="OpenService('TT')">POSICIONAMIENTO WEB</li>
+              <hr class="m-0">
+              <li onclick="OpenService('UU')">CIBERSEGURIDAD</li>
+              <hr class="m-0">
+            </ul>
+          </div>
+        </div>
+
+        <div  onclick="SubMenuToogle(6)" >
+          <div class="w-100 ServSubMenuSeguridad" >
+            <div style="cursor: pointer; color: white; font-weight: bold;" ><span style="margin-right: 4%; transform: translate(0px,3px);"class="material-symbols-outlined">
+              school
+              </span>CAPACITACIÓN<span class="ArrowServSubMenu" data-aos="fade-right" data-aos-duration="2500" style="color: white;">ᐅ</span></div>           
+            <ul id="6" style="display: none;">            
+              <li onclick="OpenService('VV')">CAPACITACION DE TIRO</li>
+              <hr class="m-0">
+              <li onclick="OpenService('WW')">CAPACITACION DE MANEJO</li>
+              <hr class="m-0">
+              <li onclick="OpenService('XX')">CONTROL DE CALIDAD</li>
+              <hr class="m-0">
+              <li onclick="OpenService('YY')">CAPACITACION DE ETIQUETA</li>
+              <hr class="m-0">
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+<!-- Aca van los cols con contenido -->
+      <div class="col-12 col-lg-9">
+
+
+        <!-- VIGILANCIA-->
+        <div class="00" style="display: none;" >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">VIGILANCIA</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Nuestra misión es garantizar la integridad física de las instalaciones y la seguridad de su personal. Contamos con una App para completa transparencia en la jornada de nuestros Vigiladores
+                a los cuales mediante un riguroso entrenamiento garantizan el lema, Gente Confiable.</p>
+                <hr style="color: black; ">
+                <div class="text-center"><a href="Contacto.html"><button class="botonEnviar text-center">
+                  Solicitar servicio</button></a>
+              </div>
+              </div>
+
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+
+                <p class="CitaEnServicios">
+                  “Disponemos de la central de monitoreo mas completa del mercado con mas de 25 años de experiencia en prevencion delectiva”
+                </p>
+                <p class="ParrafoEnServicios" style="font-weight: bold;">Contamos con nuestra propia aplicacion para monitoreo de alarmas y una central de monitoreo que opera las 24 Hs los 365 dias del año
+                </p>
+                
+                <img src="Images/Seguridad para eventos.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- APP DE REPORTES-->
+        <div class="11" style="display: none;" >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">APP DE REPORTES</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Contamos con una App para brindar completa transparencia en la jornada de nuestros vigiladores lo cual nos permite garantizar un servicio de calidad hacia nuestros clientes.
+                  Aun igual de importante contamos con una central de monitoreo y base operativa que responden las 24 horas los 365 días del año, vital para respuestas inmediatas en caso de emergencias.
+                </p>
+                <hr style="color: black; ">
+                <div class="text-center"><a href="Contacto.html"><button class="botonEnviar text-center">
+                  Solicitar servicio</button></a>
+              </div>
+              </div>
+
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+
+                <p class="CitaEnServicios">
+                  “Disponemos de la central de monitoreo mas completa del mercado con mas de 25 años de experiencia en prevencion delectiva”
+                </p>
+                <p class="ParrafoEnServicios" style="font-weight: bold;">Contamos con nuestra propia aplicacion para monitoreo de alarmas y una central de monitoreo que opera las 24 Hs los 365 dias del año.
+                </p>
+                
+                <img src="Images/services/S custodia movil y satelital 3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOTEMS-->
+        <div class="22" style="display: none;" >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">TOTEMS</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Un tótem de seguridad es un producto de seguridad sumamente innovador que vigila un inmueble durante las 24 horas a través de un sistema tecnológico a distancia. 
+                  El vigilador está monitoreando en vivo y en directo, pero está ubicado en otro sitio y observa la situación a través de cámaras de seguridad.
+                </p>
+                <hr style="color: black; ">
+                <div class="text-center"><a href="Contacto.html"><button class="botonEnviar text-center">
+                  Solicitar servicio</button></a>
+              </div>
+              </div>
+
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+
+                <p class="CitaEnServicios">
+                  “Disponemos de la central de monitoreo mas completa del mercado con mas de 25 años de experiencia en prevencion delectiva”
+                </p>
+                <p class="ParrafoEnServicios" style="font-weight: bold;">Contamos con nuestra propia aplicacion para monitoreo de alarmas y una central de monitoreo que opera las 24 Hs los 365 dias del año.
+                </p>
+                
+                <img src="Images/totem.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CUSTODIA MOVIL CONTENIDO -->
+        <div class="AA" id="AA" data-aos="fade-right" data-aos-duration="500">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-2 ColAzulServicios py-5">
+                <h1 class="TituloEnServicios">CUSTODIA  MÓVIL</h1>
+                <hr style="color: black; ">
+
+
+                <p class="LIenServicios"> 
+                  Realizamos custodia de mercaderia en transito por toda la Argentina. Disponemos de personal capacitado y mas de 25 años de experiencia en las ciencias de la seguridad. 
+                  Nuestra base de operaciones monitorea e auxilia cualquier inconveniente que pudises surgir durante el transporte de la carga manteniendose en constante comunicacion tanto con el custodio como el transportista.
+                  <li class="LIenServicios">Equipo de rastreo con pulsador de pánico.</li>
+                  <li class="LIenServicios">Personal armado y capacitado para responder en situaciones de riesgo.</li>
+                  <li class="LIenServicios">Sistema de comunicación MÚLTIPLE (tracking, celular y GPS).</li>
+                  <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button>           
+                  <!-- Equipo de rastreo con pulsador de pánico.
+                  <br>
+                  Comunicación por HT entre el móvil (custodio) y transportista (camionero).
+                  <br>
+                  Un sistema de comunicación MÚLTIPLE (tracking, celular y GPS).
+                  <br>
+                  Vehículos de cuatro puertas con una antigüedad menor a los 10 años (por ser de cuatro puertas facilita la disposición "cruzada" 
+                  de los custodios materializándose la defensa en 360º y en consecuencia permitiendo agilidad y dinamismo. -->
+                </p>
+              </div>
+
+              <div class="col-12 col-lg-6" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+           
+                <div class="ColAzulServicios py-5" data-aos="fade-right" data-aos-duration="500">
+                 
+                  <h1 class="TituloEnServicios">CUSTODIA SATELITAL</h1>
+                  <hr style="color: black; ">
+                  <p class="LIenServicios">Uno de los principales problemas respecto a la seguridad satelital es la armonía existente en la evolución de las tecnologías de protección y 
+                    la tecnología que utilizan los piratas del asfalto para vulnerar el rastreo satelital (ejemplo los “inhibidores”). <br> Es aquí donde GSM se diferencia
+                    por haberse vinculado estratégicamente con las dos empresas líderes del mercado. <br>Líderes por la inversión permanente en el desarrollo de nuevas 
+                    herramientas de avanzada y por la calidad de prestación.
+                  </p>
+
+                  <img src="Images/FotoAutosi.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VIGILANCIA -->
+        <div class="BB" style="display: none;">
+          <div class="container-fluid">
+            <div class="row">
+
+              <div class="col-12">
+                <h1 class="TituloEnServiciosVigilancia" style="color: black;">Trabajamos con equipos de última generación y la central de monitoreo <span style="color: #1870AF;">más avanzada y completa del mercado.</span>
+                </h1>
+                <hr style="color: black;">
+              </div>
+
+              <div class="col-12 col-lg-6 ">
+                <img src="Images/services/S alarmas 3.jpg" class="img-fluid" alt="">
+              </div>
+
+              <div class="col-12 col-lg-6 px-3"  style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+                
+              
+                <div class="ColAzulServicios p-5">
+                  <h1 class="TituloEnServicios">VIGILANCIA</h1>
+                  <hr style="color: black; ">
+                  <ul class="ULenServicios">
+                    <li class="LIenServicios">Vigilancias familiares.</li>
+                    <li class="LIenServicios">Control de acceso en plantas industriales.</li>
+                    <li class="LIenServicios">Vigilancias en oficinas, comercios, countries, etc.</li>
+                    <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button>   
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TRASLADO DE VALORES -->
+        <div class="CC" style="display: none;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-6 ColAzulServicios p-5">
+              <h1 class="TituloEnServicios">TRASLADO DE VALORES</h1>
+              <hr style="color: black;">
+              <p class="SubTituloEnServicios">Realizamos recaudación y traslado de fondo entre bancos, financieras, empresas y domicilios particulares.</p>
+              <hr style="color: black;">
+              <ul class="ULenServicios">
+                <li class="LIenServicios">Almacenamos, contamos, clacificamos, distribuimos.</li>
+                <li class="LIenServicios">25 años de experiencia, 100% de eficiencia.</li>
+                <li class="LIenServicios">Mantenemos nuestros precios a la mitad de la competencia</li>
+                <li class="LIenServicios">Custodios capacitados para situaciones de alto riesgo.</li>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button>                   
+              </ul>
+            </div>
+
+            <div class="col-12 col-lg-6" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+              <img src="Images/services/CardTrasladoValores.png" draggable="false" class="img-fluid w-100 h-100" alt="">             
+            </div>
+
+            <div class="col-12 col-lg-12 py-5">
+              <h1 class="TituloEnServiciosVigilancia" style="color: #1870AF;">¿Porqué confiar en nosotros?</h1>
+              <p class="SubTituloEnServicios" style="font-weight: 400; color: black;">Estas tareas se realizan en horas francas de servicio (o al menos eso se dice), pero aun así, en la gran mayoría no dejan de tener cierto aspecto de informalidad legal, deficiencia ésta, que surge inexorablemente cuando las cosas se complican y ya han costado el puesto a más de un directivo y siempre un fuerte costo monetario no planeado.
+                Nace así, la unidad que hoy le estamos presentando. Un equipo de elite, con un entrenamiento igual o superior a las fuerzas antes mencionadas, pero de carácter privado, dentro de una empresa, con todos los permisos, con todos los seguros, con una factura que respalda la contratación y que puede ser usado con total libertad por el cliente en cualquier momento y ante las más graves problemáticas.
+                libertad por el cliente en cualquier momento y ante las más graves problemáticas.
+                </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- REMIS CUSTODIADO -->
+        <div class="DD" style="display: none;">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios p-5">
+                <h1 class="TituloEnServicios">REMIS CUSTODIADO</h1>
+                <hr style="color: black;">
+                <p class="SubTituloEnServicios">Pagando una pequeña diferencia con respecto a un remis normal Grupo San Miguel ofrece remises conducidos por custodios
+                  armado
+                </p>
+                <hr style="color: black;">
+                <p class="SubTituloEnServicios" style="font-weight: 400;">Grupo San Miguel es la empresa de custodias más grande y prestigiosa del país, nuestro personal está moralmente capacitado 
+                  y son poligrafíados (detector de mentiras) cada tres meses. Trabajamos bajo la certificación de las normas ISO.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+              </div>
+            
+              <div class="col-12 col-lg-6" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+                <h1 class="TituloEnServiciosVigilancia" style="color: #1870AF;">¿Porqué confiar en nosotros?</h1>
+                <hr style="color: black;" class="my-2">
+                <p class="SubTituloEnServicios" style="font-weight: 300; color: black;">Grupo San Miguel es la empresa de custodias más grande y prestigiosa del país, nuestro personal está moralmente capacitado 
+                  y son poligrafíados (detector de mentiras) cada tres meses. Trabajamos bajo la certificación de las normas ISO.
+                  </p>  
+                    
+                  <img src="Images/services/S remis custodiado 1.jpg" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- CAMARAS-->
+        <div class="EE" style="display: none;" >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">CAMARAS</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios" style="font-weight: 200;">Las cámaras de seguridad son esenciales para el control, vigilancia y seguridad de casas particulares, comercios y empresas.
+                  Con el crecimiento de la inseguridad, costos sumamente accesibles y un sin fin de tipos y modelos, las cámaras de vigilancia para hogares, dejaron de ser un lujo al que solo accedían las grandes empresas o personas adineradas.
+                  Del mismo modo, la instalación de cámaras de seguridad para comercios, fue ganando terreno, no solo por el aumento de los robos, sino que además son utilizadas para el control y vigilancia de las tareas diarias de los negocios.
+                  Las industrias tampoco se quedan atrás, las cámaras de seguridad para empresas, cumplen un papel fundamental, desde el control de procesos, control de temperatura con cámaras de seguridad termo gráficas, control de personal, etc.
+                  </p>
+                  <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                <hr style="color: black; ">
+
+              </div>
+
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+
+                <p class="CitaEnServicios">
+                  “Disponemos de la central de monitoreo mas completa del mercado con mas de 25 años de experiencia en prevencion delectiva”
+                </p>
+                <p class="ParrafoEnServicios" style="font-weight: bold;">Contamos con nuestra propia aplicacion para monitoreo de sus camaras y una central de monitoreo que opera las 24 Hs los 365 dias del año
+                </p>
+                
+                <img src="Images/services/S camaras 3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ALARMAS-->
+        <div class="FF" style="display: none;" >
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+              <h1 class="TituloEnServicios">ALARMAS</h1>
+              <hr style="color: black">
+              <p class="SubTituloEnServicios">
+                Nuestro servicio de Monitoreo de Alarmas ofrece la mejor tecnologia, un servicio de monitoreo integral las 24 hs y con el mejor costo del mercado. Esta tecnología, nos permite también diseñar sistemas de seguridad integrales, sumando al monitoreo y la video vigilancia, 
+                sistemas de alarmas contra incendios o inundaciones, controles de acceso y otros sistemas que le permiten vivir más seguro en su hogar, comercio o empresa.</p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                <hr style="color: black; ">
+
+            </div>
+
+            <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+
+              <p class="CitaEnServicios">
+                “Disponemos de la central de monitoreo mas completa del mercado con mas de 25 años de experiencia en prevencion delectiva”
+              </p>
+              <p class="ParrafoEnServicios" style="font-weight: bold;">Contamos con nuestra propia aplicacion para monitoreo de alarmas y una central de monitoreo que opera las 24 Hs los 365 dias del año
+              </p>
+              
+              <img src="Images/services/S alarmas 1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <!-- SEGURIDAD PERIMETRAL-->
+        <div class="GG"  style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">SEGURIDAD PERIMETRAL</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Un buen sistema de seguridad debe ofrecer una protección integral que comience por el exterior de la vivienda o negocio. La seguridad perimetral es fundamental para detectar a los intrusos en zonas exteriores 
+                  (terrazas, jardines, etc.) o puntos de acceso, de manera que la alarma se activa, incluso, antes de que el intruso entre en la casa o negocio. <BR></BR>
+                  Nuestras alarmas perimetrales GSM tienen el objetivo de detectar, alertar y disuadir a un intruso mucho antes de que 
+                  pueda ingresar a la propiedad protegida.</p>
+                  <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                <hr style="color: black; ">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+  
+                <p class="CitaEnServicios">
+                  “Disponemos de la central de monitoreo mas completa del mercado con mas de 25 años de experiencia en prevencion delectiva”
+                </p>
+                <p class="ParrafoEnServicios" style="font-weight: bold;">Contamos con nuestra propia aplicacion para monitoreo de alarmas y una central de monitoreo que opera las 24 Hs los 365 dias del año
+                </p>
+                
+                <img src="Images/services/S seguridad perimetral 1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          </div>
+
+        <!-- CONTROL DE ACCESO-->
+        <div class="HH" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">CONTROL DE ACCESO</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  El control de acceso es o son los mecanismos que permite o restringe la entrada de una persona o vehículo a una empresa. Puede ser, que, 
+                  dentro de una misma empresa, pueda autorizar o denegar el ingreso a una determinada zona.<br> <br>
+                  Accesos mediante molinetes, barreras vehiculares, detección facial, y más. Instalamos desde sistemas para una puerta de acceso, 
+                  o grandes urbanizaciones con múltiples accesos</p>
+                  <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                <hr style="color: black; ">
+
+              </div>
+
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+
+                <p class="CitaEnServicios">
+                  “Disponemos de la central de monitoreo mas completa del mercado con mas de 25 años de experiencia en prevencion delectiva”
+                </p>
+                <p class="ParrafoEnServicios" style="font-weight: bold;">Contamos con nuestra propia aplicacion para monitoreo de alarmas y una central de monitoreo que opera las 24 Hs los 365 dias del año
+                </p>
+                
+                <img src="Images/services/S control de acceso 1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- INVESTIGACIONES DE ALTA COMPLEJIODAD-->
+        <div class="II" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">INVESTIGACIONES DE ALTA COMPLEJIDAD</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios" style="font-weight: 400;">
+                  Las Investigaciónes de Alta Complejidad tiene como misión combatir la criminalidad organizada en sus diferentes modalidades:
+                </p>
+                  <ul class="ULenServicios px-3">
+                    <li class="LIenServicios">Corrupción de funcionarios.</li>
+                    <li class="LIenServicios">Lavado de activos.</li>
+                    <li class="LIenServicios">Sicariato.</li>
+                    <li class="LIenServicios">Trata de personas.</li>
+                    <li class="LIenServicios">Robo agravado.</li>
+                    <li class="LIenServicios">Extorsión.</li>
+                    <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  </ul>
+                <hr style="color: black; ">
+
+              </div>
+
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;">
+
+                <p class="CitaEnServicios">
+                  “Las Investigaciónes de Alta Complejidad fue una division creadad dentro de Grupo San Miguel para generar un golpe al crimen organizado”
+                </p>
+                <p class="ParrafoEnServicios" style="font-weight: bold;">Coimas. Corrupción. Políticos de centro, izquierda y derecha, empresarios, magistrados.
+                </p>
+                
+                <img src="Images/services/S investigaciones 1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- GERENCIAMIENTO DE RIESGO-->
+        <div class="JJ" style="display: none;">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+              <h1 class="TituloEnServicios">GERENCIAMIENTO DE RIESGO</h1>
+              <hr style="color: black">
+              <p class="SubTituloEnServicios">
+                La  Gerencia de Riesgos debe entenderse como la técnica de gestión del riesgo de la empresa que 
+                tiende a salvaguardar el patrimonio de la misma frente a las pérdidas que puedan afectar su actividad,
+                 a través del uso de instrumentos de diversa naturaleza en las mejores condiciones de coste. <br>
+                 Se deben analizar cuáles son los puntos clave, los que parecen que funcionan y los que no, y tenerlos de 
+                 referencia para poder mejorar de manera continua. Hay que determinar también cuáles son los riesgos que deben abordarse y blackucir así sus efectos. <br> <br>
+                 A través de la Gerencia de Riesgos, la empresa:
+              </p>
+                <ul class="ULenServicios px-2">
+                  <li class="LIenServicios">Valora la naturaleza, dimensión y frecuencia del siniestro.</li>
+                  <li class="LIenServicios">Establece el presupuesto para eliminar o blackucir algunos riesgos.</li>
+                  <li class="LIenServicios">Define una política adecuada de aseguramiento en consonancia con la estructura financiera de la empresa</li>
+                  <li class="LIenServicios">Optimiza el coste total del riesgo</li>
+                  <li class="LIenServicios">Proporciona toda la información necesaria para tomar la decisión oportuna.</li>
+                  <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                </ul>
+              <hr style="color: black; ">
+
+            </div>
+
+            <div class="col-12 col-lg-6 px-3" >
+
+              <img src="Images/services/S gerenciamiento de riesgo 3.jpg" class="img-fluid" alt="">
+
+              <p class="ParrafoEnServicios py-5" style="font-weight: 100;">Uno de los avances más relevantes de los últimos años ha sido la mayor importancia que 
+                las empresas han dado a la gerencia de riesgos. A pesar de ello, el concepto de Risk Management  o Gerencia de Riesgos se ha puesto tan de moda 
+                que se utiliza para hacer referencia a demasiadas cosas y con frecuencia está mal empleado. Por ello, es necesario que las empresas conozcan con mayor precisión 
+                cuál es su alcance, determinando quién es el responsable de su aplicación y cuáles deben ser sus objetivos.
+              </p>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- INTELIGENCIA PREVENTIVA-->
+        <div class="KK" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">INTELIGENCIA PREVENTIVA</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Este trabajo tiene como propósito dotar a la organización de una visión de su realidad. Se alimenta de datos provenientes de fuentes confiables que,  
+                  debidamente organizados, facilitan la identificación de amenazas futuras en escenarios probables. <br>
+                  El proceso resultante  se denomina inteligencia preventiva. Es de naturaleza estratégica y coloca a la dirección de la institución en 
+                  mejor situación para lograr sus objetivos. El producto de esta labor (en oportunidades conducido desde salas situacionales) es generar información accionable para dar ventajas frente a amenazas potenciales o reales. 
+                  Sin importar el tamaño o el propósito, las exploraciones  periódicas de entorno son necesarias para el éxito de una corporación en la complejidad de nuestros tiempos.
+                </p>
+                  <ul class="ULenServicios px-2">
+                    <li class="LIenServicios">Evaluación de Personal.</li>
+                    <li class="LIenServicios">Evaluación de Proveedores.</li>
+                    <li class="LIenServicios">Investigamos en profundidad a quienes se postulan para cubrir un empleo.</li>
+                    <li class="LIenServicios">Análisis criticidad de rutas.</li>
+                    <li class="LIenServicios">Análisis de la actividad criminal.</li>
+                    <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  </ul>
+                <hr style="color: black; ">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" >
+  
+                <p class="CitaEnServicios">
+                  “200 años A.C. Sun Tzu destacó la importancia de la INTELIGENCIA como actividad de búsqueda de información necesaria para adquirir el 
+                  conocimiento indispensable para acotar riesgos.”
+                </p>
+
+                <img src="Images/services/S inteligencia preventiva 1.jpg" class="img-fluid" alt="">
+                <p class="ParrafoEnServicios py-5" style="font-weight: bold;">Evaluamos riesgos partiendo de una fina labor de inteligencia que nos permite tener la visión de aquellos que 
+                  pretenden vulnerar los intereses de nuestros clientes.
+                </p>
+                
+               
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- POLIGRAFO-->
+        <div class="MM" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: space-evenly;">
+                <img src="Images/services/S poligrafo 1.jpg" class="img-fluid" alt="">
+                <p class="SubTituloEnServicios" style="font-weight: 390; text-align: center;">
+                  Mediante estos exámenes poligráficos evaluamos la viabilidad de nuestros futuros custodios y agentes de seguridad privada. 
+                  En este proceso interviene un equipo multidisciplinario compuesto por:
+                </p>
+
+              </div>            
+              
+              
+              <div class="col-12 col-lg-6 ColAzulServicios p-5" style="display: flex;flex-direction: column;justify-content: space-between;flex-wrap: nowrap;" >
+  
+                <h1 class="TituloEnServicios">¿QUÉ ES UN POLÍGRAFO?</h1>
+                <hr style="color: grey">
+                <p class="SubTituloEnServicios">
+                  Es un instrumento médico-científico empleado para analizar indicadores emitidos por el sistema nervioso autónomo 
+                  durante declaraciones verbales, a los efectos de determinar la existencia de veracidad o engaño en las respuestas 
+                  proporcionadas a un cuestionario homologado por las técnicas internacionales, respetando condiciones de laboratorio 
+                  específicas y las buenas prácticas forenses.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                <hr style="color: grey">             
+                
+              </div>
+            </div>
+          </div> 
+                 
+        </div>
+
+        <!-- SANITIZACION DE COMERCIOS-->
+        <div class="NN"  style="display: none;" >
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">SANITIZACION DE COMERCIOS</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Oficinas, domicilios, empresas, fábricas y más. Nuestro personal cuenta con la experiencia y capacitación necesaria a fin de no dañar 
+                  maquinarias ni equipos durante su trabajo. <br>
+
+                  Prevenir la contaminación de superficies y mantener 
+                  condiciones adecuadas de limpieza y desinfección en los espacios públicos, es fundamental para mitigar la transmisión del virus y 
+                  proteger la salud de los trabajadores y del público en general. Las superficies con 
+                  alta frecuencia de contacto (manijas de puertas, barandillas, mesas de comedor, etc.) requieren de especial atención para evitar contaminación a partir de las mismas..</p>
+                  <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" >
+  
+
+                <img src="Images/services/S sanitizacion comercios 1.jpg" class="img-fluid" alt="">                
+                
+                <p class="ParrafoEnServicios py-5" style="font-weight: bold;">En cada trabajo que realizamos nos cercioramos de utilizar elementos de trabajo y químicos adecuados 
+                  para evitar cualquier tipo de inconveniente con la operatividad de nuestros clientes.
+                </p>
+                
+                
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DETECTOR DE TEMPERATURA-->
+        <div class="OO" style="display: none;" >
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">DETECTOR DE TEMPERATURA</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Para medir la temperatura facial y prevenir contagios COVID; controlando el acceso a lugares públicos, oficinas, depósitos, etc. de forma rápida, simple y económica.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: flex-end;flex-wrap: nowrap;">                           
+                
+                <img src="Images/services/S detector de temperatura 1.jpg" class="img-fluid" alt=""> 
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MANTENIMIENTO DE ESPACIOS VERDES-->
+        <div class="PP" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">MANTENIMIENTO DE ESPACIOS VERDES</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Nuestro compromiso es el de facilitar la gestión de mantenimiento y limpieza de nuestros clientes. 
+                  Sabemos las dificultades que eso conlleva, por lo que decidimos brindar soluciones de alto nivel. <br>
+                  Proveemos operarios uniformados acorde a las tareas solicitadas. En caso de ocurrir un eventual daño material 
+                  por parte de nuestros operarios, FASIC se hará responsable de resarcir el daño.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" >
+  
+                <p class="ParrafoEnServicios py-5" style="font-weight: bold;">Realizamos supervisiones periódicas a nuestro personal para 
+                  garantizar nuestro compromiso de calidad y proveer máquinas y productos adecuados al servicio de cada cliente.
+                </p>
+
+                <img src="Images/services/S mantenimiento e verdes 1.jpg" class="img-fluid" alt="">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- PREVENCION DE PLAGAS-->
+        <div class="QQ" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">PREVENCIÓN DE PLAGAS</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Nuestro compromiso es el de facilitar la gestión de mantenimiento y limpieza de nuestros clientes. 
+                  Sabemos las dificultades que eso conlleva, por lo que decidimos brindar soluciones de alto nivel. <br>
+                  Proveemos operarios uniformados acorde a las tareas solicitadas. En caso de ocurrir un eventual daño material 
+                  por parte de nuestros operarios, FASIC se hará responsable de resarcir el daño.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" >
+
+                <img src="Images/services/S prevencion de plagas 1.jpg" class="img-fluid" alt="">
+  
+                <p class="ParrafoEnServicios py-5" style="font-weight: bold;">Realizamos supervisiones periódicas a nuestro personal para 
+                  garantizar nuestro compromiso de calidad y proveer máquinas y productos adecuados al servicio de cada cliente.
+                </p>             
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DESARROLLO WEB-->
+        <div class="RR" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">DESARROLLO WEB</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web. 
+                  No es simplemente la implementación del diseño convencional, ya que se abarcan diferentes aspectos como el diseño gráfico web, 
+                  diseño de interfaz y experiencia de ususario, como navegabilidad, interactividad, usabilidad, 
+                  arquitectura de la información; interacción de medios, entre los que podemos mencionar audio, texto, imagen, enlaces, video y 
+                  la optimización de motores de búsqueda..
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" >                  
+                <p class="ParrafoEnServicios py-5" style="font-weight: bold;">Desarrollo desde cero de Aplicaciones y Software de Gestión con automatización de procesos y el uso de la 
+                  información para la toma de decisiones. Acompañamos a la organización en todo el proceso para entender su necesidad, aportarle una solución y medir los resultados.
+                </p>  
+
+                <img src="Images/services/S desarrollo web 1.jpg" class="img-fluid" alt="">          
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DESARROLLO MOVIL-->
+        <div class="SS" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">DESARROLLO MOVIL</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  En el desarrollo de aplicaciones, además de la funcionalidad, la utilidad y el correcto funcionamiento nos topamos con otras 
+                  dos características imprescindibles: el diseño de la app y la usabilidad. Una aplicación móvil debe de ser observada desde el 
+                  punto de vista del tipo de usuario. Es decir, que aunque deba cumplir su función corporativa, también debemos tener 
+                  en cuenta la opinión de nuestro cliente si queremos que tenga éxito. Para lograrlo, debemos prestar atención al diseño y a la 
+                  usabilidad en el desarrollo de aplicaciones móviles.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" >   
+                
+                <img src="Images/services/S desarrollo movil 1.jpg" class="img-fluid" alt=""> 
+                <p class="ParrafoEnServicios py-5" style="font-weight: bold;">Desarrollo desde cero de Aplicaciones y Software de Gestión con automatización de procesos y el uso de la 
+                  información para la toma de decisiones. Acompañamos a la organización en todo el proceso para entender su necesidad, aportarle una solución y medir los resultados.
+                </p>  
+
+                        
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- POSICIONAMIENTO WEB-->
+        <div class="TT" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">POSICIONAMIENTO WEB</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Como estrategia para atraer a potenciales clientes, una de las tareas obligatorias para todas las empresas (sean o no ecommerce) 
+                  es trabajar el SEO. Es decir, atraer a los usuarios cualificados mediante tráfico orgánico. Entiéndase por tráfico orgánico aquel proveniente de buscadores. <br>
+                  Es más, por muy atractiva que sea tu oferta, si no te ven en la primera página de resultados de Google estás perdiendo más del 90% de los clics. Y de entre 
+                  todos los resultados de esa primera página de respuestas, la primera posición acumula en torno al 59,59% de clics, según los datos de Sistrix.  Además, 
+                  obtener un volumen de tráfico web considerable es el primer paso para poder realizar todas las demás estrategias de marketing online con éxito 
+                  (Google Ads, blackes sociales, email marketing, etc.).
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: flex-end;" >                
+                
+                <p class="ParrafoEnServicios py-5" style="font-weight: bold;">El posicionamiento web es el conjunto de acciones que se 
+                  realizan para situar páginas web en la parte de arriba de la lista de resultados de los buscadores.
+                </p>  
+                <img src="Images/services/S posicionamiento web 1.jpg" class="img-fluid" alt="">
+                        
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CIBERSEGURIDAD-->
+        <div class="UU" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">CIBERSEGURIDAD</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Realizamos análisis y auditorías de blackes, para verificar la seguridad de las mismas. 
+                  Realizamos informes completos y recomendamos las mejores opciones. Por otro lado, implementamos sistemas de blackes desde cero, 
+                  para aquellas empresas que 
+                  quieran montar nuevas y seguras blackes e infraestructuras. Todos nuestros análisis, terminan con pruebas de penetración para 
+                  verificar la seguridad del trabajo realizado.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: flex-end;" >                
+                
+                <p class="ParrafoEnServicios py-5" style="font-weight: bold;">UNA CADENA ES TAN FUERTE COMO SU ESLABÓN MÁS DÉBIL. TRABAJA CON LOS MAS FUERTES.
+                </p>  
+                <img src="Images/services/S ciberseguridad 1.jpg" class="img-fluid" alt="">
+                        
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAPACITACION DE TIRO-->
+        <div class="VV" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">CAPACITACIÓN DE TIRO</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Contamos con nuestro propio centro de capacitación, 
+                  pionero en tecnología para entrenamiento. Tenemos un polígono virtual y un simulador de custodias de mercadería 
+                  en tránsito, situado en nuestra sede central y desarrollado con tecnología propia, disponible las 24 horas.
+                  Ya que nuestros hombres demuestran diariamente su eficiencia y conocimiento a la hora de cumplir con un 
+                  servicio de seguridad, decidimos abrir las puertas de nuestro centro para capacitar también a otras personas 
+                  que no formen parte de Grupo San Miguel.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: flex-end;" >                
+                
+                <p class="CitaEnServicios py-5" style="font-weight: 300; line-height: 30px; font-size: 1.2rem;">
+                  "En GRUPO SAN MIGUEL tenemos clara la diferencia entre asignar al cliente un hombre con mentalidad de 
+                  vigilador a un hombre vestido de vigilador. Muchos ofrecen hombres vestidos de… y sin embargo su mentalidad 
+                  dista mucho de la necesaria para dar la protección que el cliente requiere y paga. Esa diferencia sólo se 
+                  logra con una minuciosa selección y una eficaz capacitación."
+                </p>  
+                <img src="Images/services/S capacitacion de tiro 1.jpg" class="img-fluid" alt="">
+                        
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAPACITACION DE MANEJO-->
+        <div class="WW" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">CAPACITACIÓN DE MANEJO</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Contamos con nuestro propio centro de capacitación, 
+                  pionero en tecnología para entrenamiento. Tenemos un polígono virtual y un simulador de custodias de mercadería 
+                  en tránsito, situado en nuestra sede central y desarrollado con tecnología propia, disponible las 24 horas.
+                  Ya que nuestros hombres demuestran diariamente su eficiencia y conocimiento a la hora de cumplir con un 
+                  servicio de seguridad, decidimos abrir las puertas de nuestro centro para capacitar también a otras personas 
+                  que no formen parte de Grupo San Miguel.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: flex-end;" >                
+                
+                <p class="CitaEnServicios py-5" style="font-weight: 300; line-height: 30px; font-size: 1.2rem;">
+                  "En GRUPO SAN MIGUEL tenemos clara la diferencia entre asignar al cliente un hombre con mentalidad de 
+                  vigilador a un hombre vestido de vigilador. Muchos ofrecen hombres vestidos de… y sin embargo su mentalidad 
+                  dista mucho de la necesaria para dar la protección que el cliente requiere y paga. Esa diferencia sólo se 
+                  logra con una minuciosa selección y una eficaz capacitación."
+                </p>  
+                <img src="Images/services/S capacitacion de manejo 1.jpg" class="img-fluid" alt="">
+                        
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTROL DE CALIDAD-->
+        <div class="XX" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">CONTROL DE CALIDAD</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Contamos con nuestro propio centro de capacitación, 
+                  pionero en tecnología para entrenamiento. Tenemos un polígono virtual y un simulador de custodias de mercadería 
+                  en tránsito, situado en nuestra sede central y desarrollado con tecnología propia, disponible las 24 horas.
+                  Ya que nuestros hombres demuestran diariamente su eficiencia y conocimiento a la hora de cumplir con un 
+                  servicio de seguridad, decidimos abrir las puertas de nuestro centro para capacitar también a otras personas 
+                  que no formen parte de Grupo San Miguel.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: flex-end;" >                
+                
+                <p class="CitaEnServicios py-5" style="font-weight: 300; line-height: 30px; font-size: 1.2rem;">
+                  "En GRUPO SAN MIGUEL tenemos clara la diferencia entre asignar al cliente un hombre con mentalidad de 
+                  vigilador a un hombre vestido de vigilador. Muchos ofrecen hombres vestidos de… y sin embargo su mentalidad 
+                  dista mucho de la necesaria para dar la protección que el cliente requiere y paga. Esa diferencia sólo se 
+                  logra con una minuciosa selección y una eficaz capacitación."
+                </p>  
+                <img src="Images/services/S control de calidad 1.jpg" class="img-fluid" alt="">
+                        
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAPACITACION DE ETIQUETA-->
+        <div class="YY" style="display: none;">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-lg-6 ColAzulServicios px-4 py-5">
+                <h1 class="TituloEnServicios">CAPACITACIÓN DE ETIQUETA</h1>
+                <hr style="color: black">
+                <p class="SubTituloEnServicios">
+                  Contamos con nuestro propio centro de capacitación, 
+                  pionero en tecnología para entrenamiento. Tenemos un polígono virtual y un simulador de custodias de mercadería 
+                  en tránsito, situado en nuestra sede central y desarrollado con tecnología propia, disponible las 24 horas.
+                  Ya que nuestros hombres demuestran diariamente su eficiencia y conocimiento a la hora de cumplir con un 
+                  servicio de seguridad, decidimos abrir las puertas de nuestro centro para capacitar también a otras personas 
+                  que no formen parte de Grupo San Miguel.
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                  <hr style="color: black">
+  
+              </div>
+  
+              <div class="col-12 col-lg-6 px-3" style="display: flex;flex-direction: column;justify-content: flex-end;" >                
+                
+                <p class="CitaEnServicios py-5" style="font-weight: 300; line-height: 30px; font-size: 1.2rem;">
+                  "En GRUPO SAN MIGUEL tenemos clara la diferencia entre asignar al cliente un hombre con mentalidad de 
+                  vigilador a un hombre vestido de vigilador. Muchos ofrecen hombres vestidos de… y sin embargo su mentalidad 
+                  dista mucho de la necesaria para dar la protección que el cliente requiere y paga. Esa diferencia sólo se 
+                  logra con una minuciosa selección y una eficaz capacitación."
+                </p>  
+                <img src="Images/services/S capacitacion de etiquetas 4.jpg" class="img-fluid" alt="">
+                        
+              
+              </div>
+            </div>
+          </div>
+        </div>
+                
+        
+      </div>
+
+<!-- Aca van los Rows que van abajo de todo -->
+      <div class="col-12 col-lg-12">
+
+
+      <!-- VIGILANCIA EMPRESAS -->
+      <div class="00" style="display: none;">
+        <hr style="color: black;" class="my-5">
+        <div class="container-fluid mb-5">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <img src="Images/services/S seguridad privada 1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-12 col-lg-4">                
+              <img src="Images/services/S seguridad privada 2.jpg" class="img-fluid" alt="">                
+            </div>
+            <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+              <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+              <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                nuestro equipo de profesionales para asesorarlo. <br>
+                <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                </p>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+            </div>
+          </div>
+        </div>
+        <hr style="color: black;" class="my-5">
+      </div>
+
+      <!-- APP DE REPORTES -->
+      <div class="11" style="display: none;">
+        <hr style="color: black;" class="my-5">
+        <div class="container-fluid mb-5">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <img src="Images/services/S control de acceso 1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-12 col-lg-4">                
+              <img src="Images/services/S desarrollo movil 2.jpg" class="img-fluid" alt="">                
+            </div>
+            <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+              <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+              <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                nuestro equipo de profesionales para asesorarlo. <br>
+                <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                <button class="w-100 py-2 redBTN mt-5" onclick="toContact()">Presupuestar servicio</button> 
+                </p>
+            </div>
+          </div>
+        </div>
+        <hr style="color: black;" class="my-5">
+      </div>
+      
+
+
+        <!-- CUSTODIA MOVIL FOTOS -->
+        <div class="AA">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S custodia movil y satelital 1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S custodia movil y satelital 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S custodia movil y satelital 3.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+         <!-- VIGILANCIA -->
+         <div class="BB" style="display: none;" >          
+          <div class="container-fluid py-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S camaras 1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">
+                <h1 class="TituloEnServicios" style="color: black;">TECNOLOGÍA</h1>
+                <ul class="ULenServicios px-4">
+                  <li class="LIenServicios" style="color: black;" >Aplicada a la seguridad personal y patrimonial.</li>
+                  <li class="LIenServicios" style="color: black;">Personal especializado en diseñosm a la medida de cada necesidad.</li>
+                  <li class="LIenServicios" style="color: black;">Tecnología de punta en cuanto a sistemas de intrusión, detección de incendios, evacuación, etc.</li>
+                  <li class="LIenServicios" style="color: black;">Alarmas barriales integradas.</li>
+                  <li class="LIenServicios" style="color: black;">Monitoreo desde nuestro centro de operaciones.</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-4">
+                <h1 class="TituloEnServicios">ㅤ</h1>
+                <ul class="ULenServicios px-4">
+                  <li class="LIenServicios" style="color: black;">Monitoreo desde nuestro centro de operaciones.</li>
+                  <li class="LIenServicios" style="color: black;">Diseños especiales donde combinamos alarmas, circuito cerrado de televisión(CCTV),control de ingresos, robótica, Internet, GPS, etc.</li>
+                  <li class="LIenServicios" style="color: black;">Nuestra Base de Operaciones monitorea los sistemas de seguridad electrónica las 24 Hs los 365 dias del año.</li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+        </div>
+
+        <!-- TRASLADO DE VALORES -->
+        <div class="CC" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S traslado de valores 1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S traslado de valores 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S traslado de valores 3.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- REMIS CUSTODIADO -->
+        <div class="DD" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S remis custodiado 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4  ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center;line-height: 30px; background-color: #e6e6e6;">
+               
+                <ul class="ULenServicios px-4">
+                  <li class="LIenServicios">Almacenamos, contamos, clacificamos, distribuimos.</li>
+                  <li class="LIenServicios">25 años de experiencia, 100% de eficiencia.</li>
+                  <li class="LIenServicios">Mantenemos nuestros precios a la mitad de la competencia</li>
+                  <li class="LIenServicios">Custodios capacitados para situaciones de alto riesgo.</li>                
+                </ul>
+                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- CAMARAS -->
+        <div class="EE" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/CameraResize.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S custodia movil y satelital 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+
+
+        <!-- ALARMAS -->
+        <div class="FF" style="display: none;">
+        <hr style="color: black;" class="my-5">
+        <div class="container-fluid mb-5">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <img src="Images/services/S alarmas 2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-12 col-lg-4">                
+              <img src="Images/services/S alarmas 3.jpg" class="img-fluid" alt="">                
+            </div>
+            <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+              <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+              <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                nuestro equipo de profesionales para asesorarlo. <br>
+                <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                </p>
+            </div>
+          </div>
+        </div>
+        <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- SEGURIDAD PERIMETRAL -->
+        <div class="GG"  style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S seguridad perimetral 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S seguridad perimetral 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+          </div>
+
+        <!-- CONTROL DE ACCESO-->
+        <div class="HH"  style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S control de acceso 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S control de acceso 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- INVESTIGACIONES DE ALTA COMPLEJIDAD-->
+        <div class="II"  style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S investigaciones 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S investigaciones 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- GERENCIAMIENTO DE RIESGO-->
+        <div class="JJ" style="display: none;" >
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S gerenciamiento de riesgo 1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S gerenciamiento de riesgo 2.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- INTELIGENCIA PREVENTIVA-->
+        <div class="KK" style="display: none;" >
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S inteligencia preventiva 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S inteligencia preventiva 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- POLIGRAFO-->
+        <div class="MM" style="display: none;" >
+        <hr style="color: black;" class="my-3">
+        <div class="container-fluid mb-5">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <p class="SubTituloEnServicios" style="font-weight: 400; color: black;">
+                Además, esta herramienta nos permite analizar la existencia de indicadores de veracidad o engaño en las declaraciones de nuestro personal y 
+                el de nuestros clientes ante estas cuatro hipótesis de trabajo básicas:
+              </p>
+
+              <ul class="ULenServicios px-3">
+                <li class="LIenServicios" style="color: black;">Evaluaciones de pre-empleo y periodo de prueba.</li>
+                <li class="LIenServicios" style="color: black;">Evaluaciones de rutina, para consolidar el mantenimiento de confianza.</li>
+                <li class="LIenServicios" style="color: black;">Evaluaciones específicas, relacionadas a investigaciones y procesos de auditoria interna.</li>
+                <li class="LIenServicios" style="color: black;">Detección de situaciones de abuso o violencia.</li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+              <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+              <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                nuestro equipo de profesionales para asesorarlo. <br>
+                <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                </p>
+            </div>
+          </div>
+        </div>
+        <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- SANITIZACION DE COMERCIOS-->
+        <div class="NN" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S sanitizacion comercios 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S sanitizacion comercios 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- DETECTOR DE TEMPERATURA-->
+        <div class="OO" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S detector de temperatura 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S detector de temperatura 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- MANTENIMIENTO DE ESPACION VERDES-->
+        <div class="PP" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S mantenimiento e verdes 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S mantenimiento e verdes 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- PREVENCION DE PLAGAS-->
+        <div class="QQ" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S prevencion de plagas 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S prevencion de plagas 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+        
+        <!-- DESARROLLO WEB-->
+        <div class="RR" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S desarrollo web 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S desarrollo web 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- DESARROLLO MOVIL-->
+        <div class="SS" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S desarrollo movil 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S desarrollo movil 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- POSICIONAMIENTO WEB-->
+        <div class="TT" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S posicionamiento web 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S posicionamiento web 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- CIBERSEGURIDAD-->
+        <div class="UU" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S ciberseguridad 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S ciberseguridad 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- CAPACITACION DE TIRO-->
+        <div class="VV" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S capacitacion de tiro 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S capacitacion de tiro 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- CAPACITACION DE MANEJO-->
+        <div class="WW" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S capacitacion de manejo 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S capacitacion de manejo 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- CONTROL DE CALIDAD-->
+        <div class="XX" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S control de calidad 2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S control de calidad 3.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+        <!-- CAPACITACION DE ETIQUETA-->
+        <div class="YY" style="display: none;">
+          <hr style="color: black;" class="my-5">
+          <div class="container-fluid mb-5">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="Images/services/S remis custodiado 1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-12 col-lg-4">                
+                <img src="Images/services/S remis custodiado 2.jpg" class="img-fluid" alt="">                
+              </div>
+              <div class="col-12 col-lg-4 ColAzulServicios" style="display: flex;flex-direction: column;justify-content: center; background-color:#1870af;">
+                <h1 class="TituloEnServiciosVigilancia" style="text-align: center; color: white;">¿Interesado?</h1>
+                <p class="SubTituloEnServicios" style="font-weight: bold; text-align: center; color: white;">Comuníquese con nuestro sector comercial y ellos coordinarán el enlace con 
+                  nuestro equipo de profesionales para asesorarlo. <br>
+                  <span style="font-weight: 400;"> comercial@gruposanmiguel.com.ar</span>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <hr style="color: black;" class="my-5">
+        </div>
+
+      </div>
+
+      <!-- Boton Saber Mas -->
+      <div class="col-12">
+        
+      </div>
+<!-- Fin COLUMNAS -->
+    </div>
+<!-- Fin Row -->
+  </div>
+</DIV>
+<!-- Fin Container -->
+
+
+
+      <!-- FOOTER -->
+      <div class="container-fluid px-0 py-3 footerGlobal" >
+        <div class="row">
+          <div class="col-lg-3 text-center col-12">
+            <a href="index.html">
+            <img src="Images/logo-GSM.png" class="img-fluid mt-3" style="width: 5.5em;">
+          </a>
+          </div>
+          <div class="col-lg-3 col-6 mt-4 footertext">
+            <div class="mx-3" style="display: flex;">
+              <i class="fa-solid mt-1 fa-mobile-screen-button"></i>
+              <p style="font-weight: 500;" class="mx-2 ">7700 0176</p>
+            </div>
+            <div class="mx-3" style="display: flex;">
+              <i class="fa-regular mt-1 fa-message"></i>
+              <p style="font-weight: 500;" class="mx-2 ">info@grupo<br class="long-short">sanmiguel.com.ar</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 mt-4 footertext">
+            <div class="mx-3">
+              <a href="index.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Home</p>
+          </a>
+          <a href="servicios.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Servicios</p>
+          </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 mt-4 footertext">
+            <div class="mx-3">
+              <a href="Nosotros.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Quiénes somos</p> </a>
+            <a href="Clientes.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Clientes</p>
+          </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 mt-4 footertext">
+            <div class="mx-3">
+              <a href="Contacto.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Contacto</p>
+          </a>
+          <a href="Unirse.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Enviar CV</p></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-1"></div>
+     
+          <div class="col-12 col-lg-10">
+            <hr style="border: solid 1px white;">
+          </div>
+          <div class="col-12 col-lg-1"></div>
+          <div class="col-lg-4 col-12 py-2 text-center">
+            <p class=" mt-2" style="font-size: .8em; position: relative; right: -3em;">GRUPO SAN MIGUEL @ Todos los derechos reservados.</p>
+          </div>
+          <div class="col-lg-5  col-12 py-2  text-center">
+            <div style="display: flex; align-items: center; justify-content: center;">
+              <a href="https://www.instagram.com/seguridadgruposanmiguel/">
+                <img src="Images/Frame (2).png" class="img-fluid px-5" style="height: 2.5em;">
+              </a>
+              <a href="https://www.facebook.com/incorporaciones.gruposanmiguel.com.ar">
+                <img src="Images/Frame (3).png" class="img-fluid px-5" style="height: 2.5em;">
+              </a>
+              <a href="https://www.linkedin.com/company/gsm-tech-teams/">
+                <img src="Images/Frame (4).png" class="img-fluid px-5" style="height: 2.5em;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script>
+      function toContact(){
+        window.location.href = "Contacto.html"
+      }
+    </script>
+
+
+<script  src="servicios.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+<script src="https://kit.fontawesome.com/5af3a8c52c.js" crossorigin="anonymous"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JWC4K8C7RH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JWC4K8C7RH');
+</script>
+    <!-- Código de instalación Cliengo para francisco.bruno@gruposanmiguel.com.ar <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/62cf094965ba51002a2dedf5/62cf094b65ba51002a2dedf8.js?platform=dashboard'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script> -->
+
+</body>
+
+
+</html>

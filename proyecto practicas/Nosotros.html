@@ -1,0 +1,842 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Grupo San Miguel</title>
+    <link rel="icon" type="icon" href="Images/Favicon.jpg">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://www.google.com/recaptcha/api.js"></script>
+   
+ 
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-JWC4K8C7RH"></script>
+       <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+       gtag('config', 'G-JWC4K8C7RH');
+       </script>
+</head>
+<body style="position: relative;">
+
+  <!-- NAVBAR OCULTO -->
+  <div class="container-fluid p-0 m-0" id="NavbarGSM" style="visibility: hidden; position: relative;">
+
+    <div class="row w-100 m-0 p-0 align-items-center">
+  
+      <div class="col-0 col-lg-3 p-0 m-0 text-center">
+          <img draggable="false" src="Images/logotri.png"  id="Logo" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-12 col-lg-9 p-0 m-0">
+          <div class="container-fluid p-0 m-0">
+
+              <div class="row w-100" id="Row1TopBar">
+                  <div class="col-12 col-sm-12 col-lg-2">
+                      <p class="itemmenu"> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                          <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                        </svg></span> Llamanos al:</p>
+                      <p class="itemmenu2" style="text-align: center;">7700 0176</p>
+                  </div>
+                
+                  <div class="col-12 col-sm-12 col-lg-2">
+                      <p class="itemmenu"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square" viewBox="0 0 16 16">
+                          <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        </svg></span> Mail:</p>
+                      <p class="itemmenu2">info@gruposanmiguel.com.ar</p>
+                  </div>
+                  
+                  <div class="col-12 col-sm-12 col-lg-2 px-5 mt-3 " >
+                    <img  style="transform: skew(-30deg); float: right;" src="Images/BanderaEsp.png" alt="">
+                  </div>
+                  
+                  <!-- <div class="col-12 col-sm-12 col-lg-1 mx-auto sosbutton">
+                      SOS
+                  </div> -->
+                  <div class="col-12 col-sm-12 col-lg-2">
+                    <a href="https://www.gruposanmiguel.com.ar/portal/login.html">
+                      <button class="botonEnviar w-100 h-100" style="transform: skew(-30deg);">Portal Web GSM</button>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2">
+                    <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+                      <button class="botonEnviar w-100 h-100" style="transform: skew(-30deg);">Acceso clientes</button>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2">
+                    <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+                      <button class="botonEnviar w-100 h-100" style="transform: skew(-30deg);">Sistema Satelital</button>
+                    </a>
+                  </div>
+              </div>
+
+              <div class="row w-100 mx-auto my-3 align-items-center">
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="index.html">
+                          <p class="SubItemMenu py-2">Home</p>
+                      </a>                        
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="servicios.html">
+                      <p class="SubItemMenu py-2"  >Servicios</p> 
+                    </a>                                                                       
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="Nosotros.html">
+                      <p class="SubItemMenu py-2" style="font-weight: bold;
+                      transition: 0.1s;
+                      color: #db1223;">Quiénes somos</p>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="Clientes.html">
+                      <p class="SubItemMenu py-2">Clientes</p>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="Contacto.html">
+                      <p class="SubItemMenu py-2">Contacto</p>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center" >
+                    <a style="text-decoration: none;" href="Unirse.html">
+                      <button class="SubItemMenu CVBtn py-1 px-3">Enviar CV</button>
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+  </div>
+  
+  <!-- NAVBAR MOVIL OCULTO -->
+  <nav class="navbar navbar-expand-lg navbar-light px-5" style="visibility: hidden; position: relative;">
+    <a class="navbar-brand" href="#" style="color: white;">Grupo San Miguel</a>
+    <img src="Images/BanderaEsp.png" style="float: right; padding-right: 4em; margin-top: 0.4em;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown2" >
+  
+  
+  
+      <ul class="navbar-nav text-start" >
+  
+      
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;" class="my-2">asd</div>
+  
+        <li class="nav-item active ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+  
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html" >Servicios</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Nosotros.html" style="font-weight: bold;
+          transition: 0.1s;
+          color: #db1223;">Quiénes Somos</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Clientes.html">Clientes</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+        <li class="nav-item">
+        <a href="Contacto.html">
+          <a class="nav-link" href="Contacto.html">Contacto</a>
+        </a>
+        </li>
+        
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+  
+        <li class="nav-item">
+          <a style="text-decoration: none;" href="Unirse.html">
+            <button class="SubItemMenu CVBtn my-2 py-1 px-3">Enviar CV</button>
+          </a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+  
+      
+       
+        
+  
+        <li class="nav-item pt-1 mt-4">
+          <a href="https://www.gruposanmiguel.com.ar/portal/login.html">
+            <button class="botonEnviar w-75 h-100" style="transform: skew(0deg);">Capacitación</button>
+          </a>
+        </li>
+  
+        <li class="nav-item pt-1">
+          <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+            <button class="botonEnviar w-75 h-100" style="transform: skew(0deg);">Acceso clientes</button>
+          </a>
+        </li>
+  
+  
+        <li class="nav-item pt-1 mb-3">
+          <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+            <button class="botonEnviar w-75 h-100" style="transform: skew(0deg);">Sistema Satelital</button>
+          </a>
+        </li>
+    
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  
+  </nav>
+
+  <!-- NAVBAR -->
+  <div class="container-fluid  p-0 m-0" id="NavbarGSM">
+
+    <div class="row w-100 m-0 p-0 align-items-center">
+  
+        <div class="col-0 col-lg-3 p-0 m-0 text-center">
+            <img draggable="false" src="Images/logotri.png"  id="Logo" class="img-fluid" alt="">
+        </div>
+  
+        <div class="col-12 col-lg-9 p-0 m-0">
+            <div class="container-fluid p-0 m-0">
+  
+                <div class="row w-100" id="Row1TopBar">
+                  <div class="triangle_corner"></div>
+
+                    <div class="col-12 col-sm-12 col-lg-2">
+                        <p class="itemmenu"> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                            <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                          </svg></span> Llamanos al:</p>
+                          <p class="itemmenu2" style="text-align: center;">                      <a href="tel:77000176" class="itemmenu2" style="text-align: center;">7700 0176</a></p>
+
+                    </div>
+                  
+                    <div class="col-12 col-sm-12 col-lg-2" id="Infoemail_nav">
+                        <p class="itemmenu"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                          </svg></span> Mail:</p>
+                        <p class="itemmenu2">info@gruposanmiguel.com.ar</p>
+                    </div>
+                           
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <p class="itemmenu"><span></span> Otros países:</p>
+                        <div class="p-0 m-0 w-100 h-100 " >
+                          <a href="https://gruposanmiguel.es/">
+                            <img class="banderita" src="Images/BanderaEsp.png" >
+                          </a>
+                        </div>
+                  </div>
+                    
+
+                    
+                    <!-- <div class="col-12 col-sm-12 col-lg-1 mx-auto sosbutton">
+                        SOS
+                    </div> -->
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <a href="./portal/">
+                        <button class="botonEnviar w-100 h-100" style="">Capacitaciones</button>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+                        <button class="botonEnviar w-100 h-100" style="">Acceso clientes</button>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+                        <button class="botonEnviar w-100 h-100" style="">Sistema Satelital</button>
+                      </a>
+                    </div>
+                </div>
+  
+                <div class="row w-100 mx-auto my-2 align-items-center">
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                        <a href="index.html">
+                            <p class="SubItemMenu py-2" >Home</p>
+                        </a>                        
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="servicios.html">
+                        <p class="SubItemMenu py-2">Servicios</p> 
+                      </a>                                                                       
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="Nosotros.html">
+                        <p class="SubItemMenu py-2"style="font-weight: bold;
+                        transition: 0.1s;
+                        color: #db1223;">Quiénes somos</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="Clientes.html">
+                        <p class="SubItemMenu py-2">Clientes</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="Contacto.html">
+                        <p class="SubItemMenu py-2">Contacto</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center" >
+                      <a style="text-decoration: none;" href="Unirse.html">
+                        <button class="SubItemMenu botonEnviar py-1 px-3">Enviar CV</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+    </div>
+  </div>
+  
+  <!-- NAVBAR MOVIL -->
+  <nav class="navbar navbar-expand-lg navbar-light px-5">
+    <a class="navbar-brand" href="#" style="color: white; display: block;">Grupo San Miguel</a>
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+  
+  
+  
+      <ul class="navbar-nav text-start" >
+  
+      
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;" class="my-2">asd</div>
+  
+        <li class="nav-item active ">
+          <a class="nav-link" href="index.html" >Home <span class="sr-only">(current)</span></a>
+        </li>
+  
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Nosotros.html"style="font-weight: bold;
+          transition: 0.1s;
+          color: #f91a10;">Quiénes Somos</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Clientes.html">Clientes</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+        <a href="Contacto.html">
+          <a class="nav-link" href="Contacto.html">Contacto</a>
+        </a>
+        </li>
+        
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+  
+        <li class="nav-item">
+          <a style="text-decoration: none;" href="Unirse.html">
+            <button class="botonEnviar my-2 py-1 px-3" >Enviar CV</button>
+          </a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link"  href="tel:77000176"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+            <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"></path>
+            </svg> 7700 0176</a>
+        </li>
+      
+       
+        
+  
+        <li class="nav-item pt-1 mt-4">
+          <a href="./portal/">
+            <button class="botonEnviar w-50 h-100" style="transform: skew(0deg);">Capacitaciones</button>
+          </a>
+        </li>
+  
+        <li class="nav-item pt-1">
+          <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+            <button class="botonEnviar w-50 h-100" style="transform: skew(0deg);">Acceso clientes</button>
+          </a>
+        </li>
+  
+  
+        <li class="nav-item pt-1 mb-3">
+          <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+            <button class="botonEnviar w-50 h-100" style="transform: skew(0deg);">Sistema Satelital</button>
+          </a>
+        </li>
+    
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+    </nav>
+  <div id="patch"></div>
+
+
+  <div class="container-fluid containervideo" data-aos="fade-up" data-aos-duration="1500">
+    <div class="container pt-5">   
+      <div class="w-100 youtubeVid" id="player"></div>
+    </div>
+    
+  </div>
+      
+  
+  <script>
+    // Load the YouTube IFrame Player API asynchronously
+    var tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  
+    // Create a global function called onYouTubeIframeAPIReady
+    // This function will be called by the API once it's loaded
+    function onYouTubeIframeAPIReady() {
+      // Create a new YouTube player inside the 'player' element
+      var player = new YT.Player('player', {
+        videoId: 'mzdNDMVS4fA',
+        playerVars: {
+          autoplay: 1, // Autoplay the video
+          controls: 0, // Hide the video controls
+          modestbranding: 1, // Hide the YouTube logo
+          loop: 1, // Loop the video
+          playlist: 'mzdNDMVS4fA',
+          mute: 1 
+        }
+      });
+    }
+  </script>
+
+
+
+
+<!-- 
+    //Lazy sustancias<div id="product-carousel-container">
+  <ul id="product-carousel">
+    <li class="item-1 ">
+      <img style="    width: 30rem;
+    transform: translate(-8rem, 0);" src="Images/Slider 1.jpg">
+    </li>
+    <li class="item-2">
+      <img style="    width: 30rem;
+    transform: translate(-8rem, 0);" src="Images/Monitoreo Slider 2.jpg">
+    </li>
+    <li class="item-3">
+      <img style="    width: 30rem;
+    transform: translate(-8rem, 0);" src="Images/slider centro de capacitación 1.png">
+    </li>
+    <li class="item-4">
+      <img style="    width: 30rem;
+    transform: translate(-8rem, 0);" src="Images/FotoAutosi.png">
+    </li>
+    <li class="item-5">
+      <img style="    width: 30rem;
+    transform: translate(-8rem, 0);" src="Images/FotoAutosi.png">
+    </li>
+  </ul>
+
+  <div id="product-carousel-nav">
+    <button class="carousel-nav prev"></button>
+    <button class="carousel-nav next"></button>
+  </div>
+  <div id="carousel-dots">
+    <ul>
+      <li class="active"></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</div> -->
+
+    // cards
+    <div class="container">
+      <div class="row text-center justify-content-center mb-5 ">
+        <div class="col-12 col-lg-4 px-1" data-aos="fade-up" data-aos-duration="1500">
+          <div class="px-3">
+            <div class="carta">
+              <img src="Images/recordcustodias.jpg"  class="card-img-top img-carta" alt="...">
+              <div class="card-body">
+                <h5 class="card-title TituloCarta" >RECORD DE CUSTODIAS SIN UN SOLO ROBO</h5>
+                <hr style="color: red; border: solid 1px;">
+                <p class="card-text TextoCarta">Nuestro principal objetivo es lograr la mayor satisfacción del cliente y contamos con un personal especializado y preparado para dejar todo por la tarea a cumplir. Gracias al enorme trabajo del día a día de nuestros integrantes hoy podemos defender las palabras que nos forman.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 px-1" data-aos="fade-up" data-aos-duration="1500"  style="border-left: 1px solid hsl(0deg 0% 0% / 12%);
+        border-right: 1px solid hsl(0deg 0% 0% / 12%)">
+          <div class="px-3">
+            <div class="carta">
+              <img src="Images/propiocentro.jpg" class="card-img-top img-carta " alt="...">
+              <div class="card-body" >
+                <h5 class="card-title TituloCarta">NUESTRO PROPIO CENTRO DE CAPACITACIÓN</h5>
+                <hr style="color: red; border: solid 1px;">
+                <p class="card-text TextoCarta">Contamos con nuestro propio centro de capacitación donde se entrena al personal y el de otras empresas. Tenemos un polígono virtual y un simulador de custodias de mercadería en tránsito, situado en nuestra sede central, abierto las 24 horas a disposición de los custodios.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 px-1" data-aos="fade-up" data-aos-duration="1500" >
+          <div class="px-3">
+            <div class="carta" >
+              <img src="Images/coberturaenelpais.jpg"   class="card-img-top img-carta " alt="...">
+              <div class="card-body" >
+                <h5 class="card-title TituloCarta">COBERTURA A LO LARGO DE TODO EL PAÍS</h5>
+                 <hr style="color: red; border: solid 1px;">
+                <p class="card-text TextoCarta">Nuestra función específica es la de satisfacer todas
+                  las necesidades de seguridad patrimonial, intelectual o colectiva de las personas 
+                  o instituciones que puedan requerir. La empresa está conformada por distintas unidades de prestación 
+                  que apuntan a cubrir todas las necesidades de seguridad.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- videos -->
+    <div class="container espacioBajo">
+      <div class="row ">
+        <h1 class="TitleEmpresas" style="text-align: left; color: hsl(359deg 85% 53%);">
+          VIDEOS:
+        </h1>
+      </div>
+      <div class="row">
+
+
+        <!-- pestañas de videos -->
+        <!-- 1 -->
+        
+        <div class="col-12 VideoCol my-2 py-2 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000">
+          <div class="container px-0">
+              <p class="text-end pb-2">
+                  <a class="btnPestania p-3 w-100" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="true" aria-controls="multiCollapseExample1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-eye-fill mx-3" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"></path>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"></path>
+                      </svg>
+                      RECONOCIMIENTO ACDE
+                  </a>
+              </p>
+              <div class="row">
+                  <div class="col">
+                      <div class="collapse multi-collapse BackVideoCard" id="multiCollapseExample1">
+                          <div class="m-4 px-2 text-center">
+                              <iframe width="100%" height="415" src="https://www.youtube.com/embed/oHZVLW_qO_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+        <!-- 2 -->
+        <div class="col-12 VideoCol my-2 py-2" data-aos="fade-right" data-aos-duration="1000">
+          <div class="container px-0">
+              <p class="text-end pb-2">
+                  <a class="btnPestania p-3 w-100" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-eye-fill mx-3" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"></path>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"></path>
+                      </svg>
+                      ESCUELA DE TIRO
+                  </a>
+              </p>
+              <div class="row">
+                  <div class="col">
+                      <div class="collapse multi-collapse BackVideoCard" id="multiCollapseExample2">
+                          <div class="">
+                              <div class="m-4 px-2 text-center">
+                                  <iframe width="100%" height="415" src="https://www.youtube.com/embed/-1qQhE0Y9M8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+
+    </div>
+
+    <!-- Separacion -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <hr class="mt-5">
+        </div>
+      </div>
+    </div>
+    <!-- subBanner -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 ">
+          <img src="Images/BANNERSIM.png" class="img-fluid img-carde" alt="...">
+          <div class="container mx-0  TitleBigCardBackground">
+            <div class="row py-3 text-center ">
+              <div class="col-12">
+                <h4 class="text-center TitleBigCard" >SIMULADOR DE CUSTODIA DE MERCADERÍA EN TRÁNSITO</h4>
+              </div>
+              <div class="col-12 text-center SubTitleBigCard py-3">
+                <p>Situado en nuestra sede central, abierto las 24 horas a disposición de los custodios. Premiamos el esfuerzo y el compromiso.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <img src="Images/BANNERCOBER.png" class="img-fluid img-carde" alt="...">
+          <div class="container mx-0  TitleBigCardBackground">
+            <div class="row py-3 text-center ">
+              <div class="col-12">
+                <h4 class="TitleBigCard">POSEEMOS EL RECORD LATINOAMERICANO DE CUSTODIAS</h4>
+              </div>
+              <div class="col-12  SubTitleBigCard py-3">
+                <h4 class="d-inline"></h4><p class="d-inline">Trabajamos bajo la certificación de las normas ISO 9000 de calidad total por el Bureau Veritas.</p>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-12  mt-5">
+          <img src="Images/BANNERCUST.png" class="img-fluid img-carde" alt="...">
+          <div class="container mx-0  TitleBigCardBackground" style="border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;">
+            <div class="row py-3 text-center ">
+              <div class="col-12">
+                <h4 class="text-center TitleBigCard" >TENEMOS COBERTURA POR TODO EL PAIS.</h4>
+              </div>
+              <div class="col-12 text-center px-1 SubTitleBigCard py-3">
+                <h4> </h4>
+                <p>Trabajamos bajo la certificación de las normas ISO 9000 de calidad total por el Bureau Veritas.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    <!-- Formulario -->
+    <div class="container py-5"  data-aos="fade-up" data-aos-duration="1500">
+      <div class="row">
+        <div class="col-12 col-lg-6 ">
+          <h5 class="TitleCon">Grupo San Miguel</h5>
+          <p class="TextCon">Con más de tres décadas de trayectoria, cada día nuestra empresa pone en
+            funcionamiento una gran estructura al servicio de su seguridad.
+            La gran cantidad de investigaciones realizadas, allanamientos exitosos y casos resueltos,
+            tanto en nuestro país como en el exterior demuestran el alto grado de efectividad
+            y el compromiso constante de Grupo San Miguel.
+            </p>
+            <p class="TextCon">
+            Nuestros clientes son los que certifican la efectividad y el servicio que ofrecemos.
+            Custodia Móvil y Satelital | Inteligencia e Investigaciones | Vigilancia y Alarmas | Etc.
+          </p>
+        </div>
+
+          <div class="col-12 col-lg-6  ">
+            <h5 class="TitleCon" >Solicita tu presupuesto</h5>
+            <p class="TextCon">En breve nos comunicaremos</p>
+            <form action="Contacto.php" method="post" enctype="multipart/form-data" id="superform">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 mb-3 px-0">
+                  <input type="text" class="inputGsm w-100" placeholder="Nombre Completo" id="Nombre">
+                </div>
+                <div class="col-6 mb-3 ">
+                  <input type="text" class="inputGsm w-100" placeholder="Asunto" id="Asunto">
+                </div>
+                <div class="col-6 mb-3 px-0">
+                  <input type="text" class="inputGsm w-100" placeholder="E-mail" id="email">
+                </div>
+                <div class="col-6 mb-3">
+                  <input type="text" class="inputGsm w-100" placeholder="Mensaje" id="Mensaje">
+                </div>
+                <div class="col-6">
+                  <div class="w-100 py-2 px-4"
+                  id="info">
+                  </div>
+                </div>
+                <div class="col-6 text-end">
+                  <button onclick="onSubmit()" type="button"  class="botonEnviar mx-0 p-2" id="BotonEnviar" name="enviar">Enviar Mensaje</button>
+                </div>
+             
+              </div>  
+            </div>
+            </form>
+            </div>
+          </div>
+        
+      </div>
+
+
+    </div>
+  </div>
+  
+</div>
+
+
+<script>
+  function onSubmit() {
+
+      var nombre = $("#Nombre").val();
+      var email = $("#email").val();
+      var asunto = $("#Asunto").val();
+      var mensaje = $("#Mensaje").val();
+
+     
+     
+     //VERIFICA QUE SE HAYAN LLENADO LOS CAMPOS
+      if(nombre && email && asunto && mensaje){
+          document.getElementById('BotonEnviar').style.display = "none"
+
+          $.post("Contacto.php", {
+              nombre: nombre,
+              email: email,
+              asunto: asunto,
+              mensaje: mensaje,
+          }, function(respuesta){
+
+              $("#info").text(respuesta);     
+              $("#info").css("color", "green");
+          })
+  
+      } else{
+          //QUE HACER SI HAY CAMPOS VACIOS
+          
+      
+          document.getElementById('info').style.display = "inherit"
+          document.getElementById('info').innerText = "Completar los campos requeridos."   
+      }
+  }
+  </script>
+
+
+
+      <!-- FOOTER -->
+      <div class="container-fluid px-0 py-3 footerGlobal" >
+        <div class="row">
+          <div class="col-lg-3 text-center col-12">
+            <a href="index.html">
+            <img src="Images/logo-GSM.png" class="img-fluid mt-3" style="width: 5.5em;">
+          </a>
+          </div>
+          <div class="col-lg-3 col-6 mt-4 footertext">
+            <div class="mx-3" style="display: flex;">
+              <i class="fa-solid mt-1 fa-mobile-screen-button"></i>
+              <p style="font-weight: 500;" class="mx-2 ">7700 0176</p>
+            </div>
+            <div class="mx-3" style="display: flex;">
+              <i class="fa-regular mt-1 fa-message"></i>
+              <p style="font-weight: 500;" class="mx-2 ">info@grupo<br class="long-short">sanmiguel.com.ar</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 mt-4 footertext">
+            <div class="mx-3">
+              <a href="index.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Home</p>
+          </a>
+          <a href="servicios.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Servicios</p>
+          </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 mt-4 footertext">
+            <div class="mx-3">
+              <a href="Nosotros.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Quiénes somos</p> </a>
+            <a href="Clientes.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Clientes</p>
+          </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 mt-4 footertext">
+            <div class="mx-3">
+              <a href="Contacto.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Contacto</p>
+          </a>
+          <a href="Unirse.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Enviar CV</p></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-1"></div>
+     
+          <div class="col-12 col-lg-10">
+            <hr style="border: solid 1px white;">
+          </div>
+          <div class="col-12 col-lg-1"></div>
+          <div class="col-lg-4 col-12 py-2 text-center">
+            <p class=" mt-2" style="font-size: .8em; position: relative; right: -3em;">GRUPO SAN MIGUEL @ Todos los derechos reservados.</p>
+          </div>
+          <div class="col-lg-5  col-12 py-2  text-center">
+            <div style="display: flex; align-items: center; justify-content: center;">
+              <a href="https://www.instagram.com/seguridadgruposanmiguel/">
+                <img src="Images/Frame (2).png" class="img-fluid px-5" style="height: 2.5em;">
+              </a>
+              <a href="https://www.facebook.com/incorporaciones.gruposanmiguel.com.ar">
+                <img src="Images/Frame (3).png" class="img-fluid px-5" style="height: 2.5em;">
+              </a>
+              <a href="https://www.linkedin.com/company/gsm-tech-teams/">
+                <img src="Images/Frame (4).png" class="img-fluid px-5" style="height: 2.5em;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+
+    <script src="Nosotros.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JWC4K8C7RH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JWC4K8C7RH');
+</script>
+     <!-- Código de instalación Cliengo para francisco.bruno@gruposanmiguel.com.ar <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/62cf094965ba51002a2dedf5/62cf094b65ba51002a2dedf8.js?platform=dashboard'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script> -->
+
+  </body>
+</html>

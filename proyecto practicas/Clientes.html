@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <title>Grupo San Miguel</title>
+      <link rel="icon" type="icon" href="Images/Favicon.jpg">
+
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+     <script src="https://www.google.com/recaptcha/api.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR OCULTO -->
+  <div class="container-fluid p-0 m-0" id="NavbarGSM" style="visibility: hidden; position: relative;">
+
+    <div class="row w-100 m-0 p-0 align-items-center">
+  
+      <div class="col-0 col-lg-3 p-0 m-0 text-center">
+          <img draggable="false" src="Images/logotri.png"  id="Logo" class="img-fluid" alt="">
+      </div>
+
+      <div class="col-12 col-lg-9 p-0 m-0">
+          <div class="container-fluid p-0 m-0">
+
+              <div class="row w-100" id="Row1TopBar">
+                  <div class="col-12 col-sm-12 col-lg-2">
+                      <p class="itemmenu"> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                          <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                        </svg></span> Llamanos al:</p>
+                      <p class="itemmenu2" style="text-align: center;">7700 0176</p>
+                  </div>
+                
+                  <div class="col-12 col-sm-12 col-lg-2">
+                      <p class="itemmenu"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square" viewBox="0 0 16 16">
+                          <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        </svg></span> Mail:</p>
+                      <p class="itemmenu2">info@gruposanmiguel.com.ar</p>
+                  </div>
+                  
+                  <div class="col-12 col-sm-12 col-lg-2 px-5 mt-3 " >
+                    <img  style="transform: skew(-30deg); float: right;" src="Images/BanderaEsp.png" alt="">
+                  </div>
+                  
+                  <!-- <div class="col-12 col-sm-12 col-lg-1 mx-auto sosbutton">
+                      SOS
+                  </div> -->
+                  <div class="col-12 col-sm-12 col-lg-2">
+                    <a href="https://www.gruposanmiguel.com.ar/portal/login.html">
+                      <button class="botonEnviar w-100 h-100" style="transform: skew(-30deg);">Capacitación</button>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2">
+                    <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+                      <button class="botonEnviar w-100 h-100" style="transform: skew(-30deg);">Acceso clientes</button>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2">
+                    <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+                      <button class="botonEnviar w-100 h-100" style="transform: skew(-30deg);">Sistema Satelital</button>
+                    </a>
+                  </div>
+              </div>
+
+              <div class="row w-100 mx-auto my-3 align-items-center">
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="index.html">
+                          <p class="SubItemMenu py-2">Home</p>
+                      </a>                        
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="servicios.html">
+                      <p class="SubItemMenu py-2"  >Servicios</p> 
+                    </a>                                                                       
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="Nosotros.html">
+                      <p class="SubItemMenu py-2" >Quiénes somos</p>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="Clientes.html">
+                      <p class="SubItemMenu py-2 " style="font-weight: bold;
+                      transition: 0.1s;
+                      color: #db1223;">Clientes</p>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center">
+                    <a href="Contacto.html">
+                      <p class="SubItemMenu py-2">Contacto</p>
+                    </a>
+                  </div>
+                  <div class="col-12 col-sm-12 col-lg-2 text-center" >
+                    <a style="text-decoration: none;" href="Unirse.html">
+                      <button class="SubItemMenu CVBtn py-1 px-3">Enviar CV</button>
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+  </div>
+  
+  <!-- NAVBAR MOVIL OCULTO -->
+  <nav class="navbar navbar-expand-lg navbar-light px-5" style="visibility: hidden; position: relative;">
+    <a class="navbar-brand" href="#" style="color: white;">Grupo San Miguel</a>
+    <img src="Images/BanderaEsp.png" style="float: right; padding-right: 4em; margin-top: 0.4em;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown2" >
+  
+  
+  
+      <ul class="navbar-nav text-start" >
+  
+      
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;" class="my-2">asd</div>
+  
+        <li class="nav-item active ">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+  
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html" >Servicios</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Nosotros.html" >Quiénes Somos</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Clientes.html" style="font-weight: bold;
+          transition: 0.1s;
+          color: #db1223;">Clientes</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+        <li class="nav-item">
+        <a href="Contacto.html">
+          <a class="nav-link" href="Contacto.html">Contacto</a>
+        </a>
+        </li>
+        
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+  
+        <li class="nav-item">
+          <a style="text-decoration: none;" href="Unirse.html">
+            <button class="SubItemMenu CVBtn my-2 py-1 px-3">Enviar CV</button>
+          </a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px;">asd</div>
+  
+      
+       
+        
+  
+        <li class="nav-item pt-1 mt-4">
+          <a href="https://www.gruposanmiguel.com.ar/portal/login.html">
+            <button class="botonEnviar w-75 h-100" style="transform: skew(0deg);">Capacitación</button>
+          </a>
+        </li>
+  
+        <li class="nav-item pt-1">
+          <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+            <button class="botonEnviar w-75 h-100" style="transform: skew(0deg);">Acceso clientes</button>
+          </a>
+        </li>
+  
+  
+        <li class="nav-item pt-1 mb-3">
+          <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+            <button class="botonEnviar w-75 h-100" style="transform: skew(0deg);">Sistema Satelital</button>
+          </a>
+        </li>
+    
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- NAVBAR -->
+  <div class="container-fluid  p-0 m-0" id="NavbarGSM">
+
+    <div class="row w-100 m-0 p-0 align-items-center">
+  
+        <div class="col-0 col-lg-3 p-0 m-0 text-center">
+            <img draggable="false" src="Images/logotri.png"  id="Logo" class="img-fluid" alt="">
+        </div>
+  
+        <div class="col-12 col-lg-9 p-0 m-0">
+            <div class="container-fluid p-0 m-0">
+  
+                <div class="row w-100" id="Row1TopBar">
+                  <div class="triangle_corner"></div>
+
+                    <div class="col-12 col-sm-12 col-lg-2">
+                        <p class="itemmenu"> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                            <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                          </svg></span> Llamanos al:</p>
+                        <p class="itemmenu2" style="text-align: center;">                        <p class="itemmenu2" style="text-align: center;">                      <a href="tel:77000176" class="itemmenu2" style="text-align: center;">7700 0176</a></p>
+                       
+                    </div>
+                  
+                    <div class="col-12 col-sm-12 col-lg-2"id="Infoemail_nav">
+                        <p class="itemmenu"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                          </svg></span> Mail:</p>
+                        <p class="itemmenu2">info@gruposanmiguel.com.ar</p>
+                    </div>
+                           
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <p class="itemmenu"><span></span> Otros países:</p>
+                        <div class="p-0 m-0 w-100 h-100 " >
+                          <a href="https://gruposanmiguel.es/">
+                            <img class="banderita" src="Images/BanderaEsp.png" >
+                          </a>
+                        </div>
+                  </div>
+                    
+
+                    
+                    <!-- <div class="col-12 col-sm-12 col-lg-1 mx-auto sosbutton">
+                        SOS
+                    </div> -->
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <a href="./portal/">
+                        <button class="botonEnviar w-100 h-100" style="">Capacitaciones</button>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+                        <button class="botonEnviar w-100 h-100" style="">Acceso clientes</button>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2">
+                      <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+                        <button class="botonEnviar w-100 h-100" style="">Sistema Satelital</button>
+                      </a>
+                    </div>
+                </div>
+  
+                <div class="row w-100 mx-auto my-2 align-items-center">
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                        <a href="index.html">
+                            <p class="SubItemMenu py-2" >Home</p>
+                        </a>                        
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="servicios.html">
+                        <p class="SubItemMenu py-2">Servicios</p> 
+                      </a>                                                                       
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="Nosotros.html">
+                        <p class="SubItemMenu py-2">Quiénes somos</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="Clientes.html">
+                        <p class="SubItemMenu py-2"style="font-weight: bold;
+                        transition: 0.1s;
+                        color: #db1223;">Clientes</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center">
+                      <a href="Contacto.html">
+                        <p class="SubItemMenu py-2">Contacto</p>
+                      </a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-2 text-center" >
+                      <a style="text-decoration: none;" href="Unirse.html">
+                        <button class="SubItemMenu botonEnviar py-1 px-3">Enviar CV</button>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+    </div>
+  </div>
+  
+  <!-- NAVBAR MOVIL -->
+  <nav class="navbar navbar-expand-lg navbar-light px-5">
+    <a class="navbar-brand" href="#" style="color: white; display: block;">Grupo San Miguel</a>
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+  
+  
+  
+      <ul class="navbar-nav text-start" >
+  
+      
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;" class="my-2">asd</div>
+  
+        <li class="nav-item active ">
+          <a class="nav-link" href="index.html" >Home <span class="sr-only">(current)</span></a>
+        </li>
+  
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Nosotros.html" >Quiénes Somos</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link" href="Clientes.html"style="font-weight: bold;
+          transition: 0.1s;
+          color: #f91a10;">Clientes</a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+        <a href="Contacto.html">
+          <a class="nav-link" href="Contacto.html">Contacto</a>
+        </a>
+        </li>
+        
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+  
+        <li class="nav-item">
+          <a style="text-decoration: none;" href="Unirse.html">
+            <button class="botonEnviar my-2 py-1 px-3" >Enviar CV</button>
+          </a>
+        </li>
+        <div style="color: transparent; background-color: rgba(255, 255, 255, 0.233); font-size: 1px; width: 95%;">asd</div>
+        <li class="nav-item">
+          <a class="nav-link"  href="tel:77000176"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+            <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"></path>
+            </svg> 7700 0176</a>
+        </li>
+      
+       
+        
+  
+        <li class="nav-item pt-1 mt-4">
+          <a href="./portal/">
+            <button class="botonEnviar w-50 h-100" style="transform: skew(0deg);">Capacitaciones</button>
+          </a>
+        </li>
+  
+        <li class="nav-item pt-1">
+          <a href="http://gruposm.dyndns.org:3306/GSMWeb/Account/LoginUser.aspx">
+            <button class="botonEnviar w-50 h-100" style="transform: skew(0deg);">Acceso clientes</button>
+          </a>
+        </li>
+  
+  
+        <li class="nav-item pt-1 mb-3">
+          <a href="http://gsmmovil.mine.nu:8008/welcome.php">
+            <button class="botonEnviar w-50 h-100" style="transform: skew(0deg);">Sistema Satelital</button>
+          </a>
+        </li>
+    
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+    </nav>
+  <div id="patch"></div>
+
+<div>
+    <!-- le pongo dos columnas, una al principio y final para tener 10 columnas con logos -->
+    <div class="container">
+        <div class="row">            
+            <div class="col-12  my-4 text-center">              
+                <h4 class="TitleCon">Estos son algunos de los <span>800 clientes</span> que confían en nosotros</h4>
+            </div>
+        </div>
+
+    </div>
+    <div class="container ">
+        <div class="row justify-content-center">
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/ascolia.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500"  class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/syngenta.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/portigian.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/hush puppies.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/AGFA.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/Agrale.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/AIG.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/Poxipol.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Arezzo.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+            </div>
+            <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Avon.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+            </div>
+            <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/kickers.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+            </div>
+            <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Bayer.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/black & decker.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/bmw.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/Bosch.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/bristol.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>   
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/compumundo.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                  <img src="Images/marcas/Timberland.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                  </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/YPF.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/abbott.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">  
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/grupo sancpr.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>  
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/meridional seguros.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/Andromaco.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/Igarreta.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center"> 
+             
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/bonafide.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/dexter.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/dupont.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/grimoldi.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>            
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/incaa.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/IPS.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/zucamor.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                    <img src="Images/marcas/Musimundo.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Hasar.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+            </div>
+            <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/ledesma.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+            </div>
+            <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/NaranjaX.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+            </div>
+            <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Fecovita.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">  
+                
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/lacoste.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Nike.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Novartis.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center" > 
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/pfizr.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div> 
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/philips morris.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Philips.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Puma.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+ 
+                <div class="col-6 col-sm-6 col-xl-3 cajaLogo mb-5"> 
+                <img src="Images/marcas/Camionera Mendocina.png" loading="lazy" data-aos="flip-left" data-aos-duration="1500" class="img-thumbnail card-img-top" alt="...">
+                </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+      <!-- FOOTER -->
+      <div class="container-fluid px-0 py-3 footerGlobal" >
+        <div class="row">
+          <div class="col-lg-3 text-center col-12">
+            <a href="index.html">
+            <img src="Images/logo-GSM.png" class="img-fluid mt-3" style="width: 5.5em;">
+          </a>
+          </div>
+          <div class="col-lg-3 col-6 mt-4 footertext">
+            <div class="mx-3" style="display: flex;">
+              <i class="fa-solid mt-1 fa-mobile-screen-button"></i>
+              <p style="font-weight: 500;" class="mx-2 ">7700 0176</p>
+            </div>
+            <div class="mx-3" style="display: flex;">
+              <i class="fa-regular mt-1 fa-message"></i>
+              <p style="font-weight: 500;" class="mx-2 ">info@grupo<br class="long-short">sanmiguel.com.ar</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 mt-4 footertext">
+            <div class="mx-3">
+              <a href="index.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Home</p>
+          </a>
+          <a href="servicios.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Servicios</p>
+          </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 mt-4 footertext">
+            <div class="mx-3">
+              <a href="Nosotros.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Quiénes somos</p> </a>
+            <a href="Clientes.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Clientes</p>
+          </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 mt-4 footertext">
+            <div class="mx-3">
+              <a href="Contacto.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Contacto</p>
+          </a>
+          <a href="Unirse.html" style="text-decoration: none; color: white;">
+            <p style="font-weight: 500; text-decoration: underline;">Enviar CV</p></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-1"></div>
+     
+          <div class="col-12 col-lg-10">
+            <hr style="border: solid 1px white;">
+          </div>
+          <div class="col-12 col-lg-1"></div>
+          <div class="col-lg-4 col-12 py-2 text-center">
+            <p class=" mt-2" style="font-size: .8em; position: relative; right: -3em;">GRUPO SAN MIGUEL @ Todos los derechos reservados.</p>
+          </div>
+          <div class="col-lg-5  col-12 py-2  text-center">
+            <div style="display: flex; align-items: center; justify-content: center;">
+              <a href="https://www.instagram.com/seguridadgruposanmiguel/">
+                <img src="Images/Frame (2).png" class="img-fluid px-5" style="height: 2.5em;">
+              </a>
+              <a href="https://www.facebook.com/incorporaciones.gruposanmiguel.com.ar">
+                <img src="Images/Frame (3).png" class="img-fluid px-5" style="height: 2.5em;">
+              </a>
+              <a href="https://www.linkedin.com/company/gsm-tech-teams/">
+                <img src="Images/Frame (4).png" class="img-fluid px-5" style="height: 2.5em;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+    <!-- Código de instalación Cliengo para francisco.bruno@gruposanmiguel.com.ar <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/62cf094965ba51002a2dedf5/62cf094b65ba51002a2dedf8.js?platform=dashboard'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script> -->
+
+</body>
+
+</html>
